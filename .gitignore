@@ -1,0 +1,16 @@
+# Local Python configuration and caches
+__pycache__/
+*.py[cod]
+*$py.class
+cinecode_config.json
+
+# Local Node modules and build output in subdirectory (Vite has its own gitignores, but good to keep clean here too)
+node_modules/
+dist/
+
+# OS-specific files
+Thumbs.db
+db/Thumbs.db
+.DS_Store
+.vscode/
+.idea/

@@ -1,4 +1,4 @@
-# CineCode: Cinematic Color Timelines & Quiz
+# 🎬 CineCode: Cinematic Color Timelines & Quiz
 
 CineCode is a two-part interactive experience designed to explore the visual storytelling of cinema through color. By compressing entire feature films into chronological color barcodes (CineCodes), it reveals the narrative's emotional arc, pacing, and color grading in a single visual timeline.
 
@@ -8,7 +8,7 @@ This repository contains:
 
 ---
 
-## UX/UI Design Philosophy
+## 🎨 UX/UI Design Philosophy
 
 The CineCode ecosystem is built around **aesthetic immersion** and **gamified discovery**:
 
@@ -19,7 +19,7 @@ The CineCode ecosystem is built around **aesthetic immersion** and **gamified di
 
 ---
 
-## Component Overview
+## 🕹️ Component Overview
 
 ```mermaid
 graph TD
@@ -47,7 +47,7 @@ A TypeScript/Vite application optimized for smooth animations and responsiveness
 
 ---
 
-## Setup & Running Locally
+## ⚙️ Setup & Running Locally
 
 ### Prerequisites
 *   **Python 3.8+** (for the Generator)
@@ -70,3 +70,55 @@ A TypeScript/Vite application optimized for smooth animations and responsiveness
 
 ---
 
+### Running the Quiz Web App
+1. Navigate to the frontend directory:
+   ```bash
+   cd quiz-app
+   ```
+2. Install Node packages:
+   ```bash
+   npm install
+   ```
+3. Run the Vite development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser to the URL displayed (usually `http://localhost:5173`).
+
+---
+
+## 🌐 Publishing to GitHub
+
+Since Git is required to host code on GitHub, follow the steps below to initialize and upload this project.
+
+### 1. Install Git (If not already installed)
+If Git is missing from your command line, install it easily on Windows via terminal:
+```powershell
+winget install --id Git.Git -e --source winget
+```
+*(After installing, close and reopen your terminal window so the `git` command becomes active).*
+
+### 2. Initialize and Push to GitHub
+1. Create a new repository on your GitHub account (do not initialize with a README, `.gitignore`, or license).
+2. Open terminal in the project root folder (`c:\Users\revan\Downloads\cinecode`) and run:
+   ```bash
+   # Initialize local repository
+   git init
+
+   # Add all files to staging
+   git add .
+
+   # Commit changes
+   git commit -m "Initial commit: CineCode Generator and Quiz App"
+
+   # Rename branch to main
+   git branch -M main
+
+   # Link your local repo to GitHub (Replace with your actual GitHub URL)
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+   # Push code to GitHub
+   git push -u origin main
+   ```
+
+Now, your code is fully hosted and accessible on GitHub!

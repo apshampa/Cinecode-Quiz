@@ -32,7 +32,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           cd quiz-app
-          npm ci
+          npm ci --legacy-peer-deps
           npm run build
 
       - name: Deploy 🚀

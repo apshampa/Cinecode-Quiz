@@ -116,9 +116,13 @@ h1 {
 h2,
 h3,
 h4 {
-  font-family: var(--font-family);
+  font-family: var(--font-family-sans);
   font-weight: 700;
   color: var(--text);
+}
+
+.movie-title-display {
+  font-family: var(--font-family) !important;
 }
 
 .gradient-title {
@@ -293,9 +297,8 @@ p.subtitle {
   color: var(--text-muted);
   border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
-  font-family: var(--font-family);
-  /* Serif font for movie titles */
-  font-size: 1.2rem;
+  font-family: var(--font-family-sans);
+  font-size: 1.05rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);

@@ -391,7 +391,7 @@ function App() {
               <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', textAlign: 'center' }}>
                 Which spectrum represents:
               </h3>
-              <h2 style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1.5rem', textAlign: 'center' }}>
+              <h2 className="movie-title-display" style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1.5rem', textAlign: 'center' }}>
                 {correctMovie.title}
               </h2>
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Play, RotateCcw, AlertTriangle, ExternalLink, Trophy, Flame, Heart, CheckCircle2, XCircle, SkipForward } from 'lucide-react';
 
 interface MovieRecord {
@@ -63,7 +63,7 @@ function App() {
   const [gameState, setGameState] = useState<'menu' | 'playing' | 'gameover'>('menu');
   const [quizData, setQuizData] = useState<MovieRecord[]>([]);
   const [isSampleMode, setIsSampleMode] = useState(false);
-  const [dbError, setDbError] = useState<string | null>(null);
+  const [, setDbError] = useState<string | null>(null);
 
   // Gameplay States
   const [score, setScore] = useState(0);

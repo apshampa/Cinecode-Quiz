@@ -93,7 +93,7 @@ function App() {
     }
 
     // Try fetching the generated database
-    fetch('/quiz/quiz_data.json')
+    fetch(`${import.meta.env.BASE_URL}quiz/quiz_data.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Could not load database file");
         return res.json();
@@ -344,7 +344,7 @@ function App() {
                   </div>
                 ) : (
                   <img 
-                    src={`/quiz/${correctMovie.filename}`} 
+                    src={`${import.meta.env.BASE_URL}quiz/${correctMovie.filename}`} 
                     className="barcode-image"
                     style={{ opacity: isMainImageLoading ? 0 : 1 }}
                     alt="Movie Barcode"
@@ -433,7 +433,7 @@ function App() {
                         }} />
                       ) : (
                         <img 
-                          src={`/quiz/${option.filename}`}
+                          src={`${import.meta.env.BASE_URL}quiz/${option.filename}`}
                           className="barcode-image"
                           style={{ opacity: isGridImgLoaded ? 1 : 0 }}
                           alt="Barcode option"

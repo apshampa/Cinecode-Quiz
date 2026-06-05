@@ -39,7 +39,7 @@ graph TD
 
 CineCode is two tools built around a shared data pipeline:
 
-### 🛠 The Generator  *creation tool*
+###  The Generator  *creation tool*
 
 A Python desktop app for batch-extracting CineCode barcodes from local video files. Built with Tkinter, designed for speed and control.
 
@@ -51,7 +51,7 @@ A Python desktop app for batch-extracting CineCode barcodes from local video fil
 | **Live preview** | Watch the barcode render in real-time as FFmpeg processes each frame. |
 | **Database manager** | Multi-select, filter, rename, and delete entries. Bulk title cleanup with inline editing and before/after preview. |
 
-### 🎮 The Quiz  *play experience*
+### The Quiz  *play experience*
 
 A React + TypeScript web app that turns the barcode library into a guessing game. Two question types alternate randomly:
 

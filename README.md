@@ -76,33 +76,79 @@ Both are designed to make a single argument: **color is narrative**.
 
 ---
 
-## Running Locally
+## Make Your Own Quiz
 
-### Prerequisites
-- **Python 3.8+** and **FFmpeg** (for the Generator)
-- **Node.js 18+** (for the Quiz)
+Got a hard drive full of movies? Here's how to turn your personal film library into a playable quiz in about 10 minutes.
 
-### Generator
+### What you'll need
+
+| Tool | Why | Install |
+|---|---|---|
+| **Python 3.8+** | Runs the barcode generator | [python.org](https://www.python.org/downloads/) |
+| **FFmpeg** | Reads video files frame-by-frame | `winget install ffmpeg` or [ffmpeg.org](https://ffmpeg.org/download.html) |
+| **Node.js 18+** | Runs the quiz locally | [nodejs.org](https://nodejs.org/) |
+
+---
+
+### Step 1 — Clone this repo
+
+```bash
+git clone https://github.com/apshampa/Cinecode-Quiz.git
+cd Cinecode-Quiz
+```
+
+### Step 2 — Generate barcodes from your movies
+
+Install the Python dependency and launch the generator:
+
 ```bash
 pip install Pillow
 python cinecode_generator_gui.py
 ```
-Point the output directory to `quiz-app/public/quiz/`.
 
-### Quiz
+In the GUI:
+1. **Add your movie folders** — point it at wherever your `.mkv`, `.mp4`, or `.avi` files live. You can add multiple directories.
+2. **Set the output directory** to `quiz-app/public/quiz/` inside this project.
+3. **Tweak settings** — adjust bar width/height, enable *Smooth Bars* for cleaner visuals, or switch to *Turbo Mode* (I-frames only) if you want speed over precision.
+4. **Hit Generate** — watch the barcodes render in real-time. Each film produces a PNG barcode and an entry in `quiz_data.json`.
+
+### Step 3 — Clean up your titles
+
+The generator auto-derives movie titles from filenames, so you'll get things like `"Thegoodthebadandtheugly (1966)"` instead of `"The Good, the Bad and the Ugly (1966)"`.
+
+Use the **Database Manager** tab in the generator GUI:
+1. Click **Title Cleanup** — it shows a before/after preview of every title.
+2. Edit any that look wrong inline.
+3. Save. The `quiz_data.json` updates in place.
+
+### Step 4 — Launch the quiz
+
 ```bash
 cd quiz-app
 npm install
 npm run dev
 ```
 
-### Updating the live quiz database
-No rebuild needed — quiz data and barcode images are static assets:
-```bash
-# Copy your updated db to both source and live site
-xcopy /E /Y quiz-app\public\quiz docs\quiz
+Open the URL shown in your terminal (usually `http://localhost:3000`). Your movies, your barcodes, your quiz.
 
-# Commit and push
+### Step 5 — Host it online (optional)
+
+If you want to share your quiz with others:
+
+1. Build the production app:
+   ```bash
+   npm run build
+   ```
+2. Copy the build output to the `docs/` folder at the project root:
+   ```bash
+   cd ..
+   xcopy /E /I /Y quiz-app\dist docs
+   ```
+3. Push to GitHub and set **Pages → Source** to `main` branch, `/docs` folder.
+
+To update the database later, no rebuild needed — just copy the new data and push:
+```bash
+xcopy /E /Y quiz-app\public\quiz docs\quiz
 git add docs/quiz quiz-app/public/quiz
 git commit -m "Update movie database"
 git push origin main
@@ -113,3 +159,4 @@ git push origin main
 ## License
 
 Built by [Revanth](https://revanth.design). The barcodes are derivative visual data from copyrighted films, generated for educational and research purposes.
+

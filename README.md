@@ -2,24 +2,24 @@
 
 **Decoding cinema through color.**
 
-Every film carries a hidden visual signature — a chromatic fingerprint shaped by the choices of cinematographers, colorists, and directors. CineCode compresses entire feature films into single-image color timelines, turning hours of footage into an artifact you can read at a glance.
+Every film carries a hidden visual signature  a chromatic fingerprint shaped by the choices of cinematographers, colorists, and directors. CineCode compresses entire feature films into single-image color timelines, turning hours of footage into an artifact you can read at a glance.
 
 Then it asks you: *can you recognize the film from its colors alone?*
 
-> 🎮 **Play the quiz live →** [cinequiz.revanth.design](https://cinequiz.revanth.design)
-> 🎨 **Generate your own →** [cinecode.revanth.design](https://cinecode.revanth.design)
+>  **Play the quiz live →** [cinequiz.revanth.design](https://cinequiz.revanth.design)
+>  **Generate your own cinecodes →** [cinecode.revanth.design](https://cinecode.revanth.design)
 
 ---
 
 ## Why Color?
 
-Color grading is one of the most emotionally loaded decisions in filmmaking — yet it's invisible to most audiences. A cold teal wash tells you something is clinical. Amber warmth signals nostalgia. A sudden shift to saturated red screams danger.
+Color grading is one of the most emotionally loaded decisions in filmmaking yet it's invisible to most audiences. A cold teal wash tells you something is clinical. Amber warmth signals nostalgia. A sudden shift to saturated red screams danger.
 
 CineCode makes this language *legible*. By extracting every frame's dominant hue and laying them out chronologically, it reveals patterns that even cinephiles rarely notice:
 
-- **The Matrix** reads as an almost monochromatic green-black gradient — its digital dystopia encoded in color.
+- **The Matrix** reads as an almost monochromatic green-black gradient  its digital dystopia encoded in color.
 - **La La Land** oscillates between deep indigo nights and golden-hour warmth, its romance visible as rhythm.
-- **Moonlight** shifts across three distinct palettes — one for each chapter of its protagonist's life.
+- **Moonlight** shifts across three distinct palettes  one for each chapter of its protagonist's life.
 
 The barcode isn't decoration. It's a *data visualization of directorial intent*.
 
@@ -39,7 +39,7 @@ graph TD
 
 CineCode is two tools built around a shared data pipeline:
 
-### 🛠 The Generator — *creation tool*
+### 🛠 The Generator  *creation tool*
 
 A Python desktop app for batch-extracting CineCode barcodes from local video files. Built with Tkinter, designed for speed and control.
 
@@ -51,14 +51,14 @@ A Python desktop app for batch-extracting CineCode barcodes from local video fil
 | **Live preview** | Watch the barcode render in real-time as FFmpeg processes each frame. |
 | **Database manager** | Multi-select, filter, rename, and delete entries. Bulk title cleanup with inline editing and before/after preview. |
 
-### 🎮 The Quiz — *play experience*
+### 🎮 The Quiz  *play experience*
 
 A React + TypeScript web app that turns the barcode library into a guessing game. Two question types alternate randomly:
 
-- **"Which film is this?"** — You see a barcode, pick from four movie titles.
-- **"Which barcode is this?"** — You see a title, pick from four barcodes.
+- **"Which film is this?"**  You see a barcode, pick from four movie titles.
+- **"Which barcode is this?"**  You see a title, pick from four barcodes.
 
-Wrong answers cost a heart. Streaks multiply your score. After each answer, the film's dominant color palette fans out as a reveal — a small reward loop that teaches you to *see* color differently over time.
+Wrong answers cost a heart. Streaks multiply your score. After each answer, the film's dominant color palette fans out as a reveal  a small reward loop that teaches you to *see* color differently over time.
 
 The interface is built around a theater-dark aesthetic: glassmorphic panels, glow feedback on correct/incorrect answers, skeleton loaders for image states, and CSS gradient fallbacks when assets are missing.
 
@@ -68,7 +68,7 @@ The interface is built around a theater-dark aesthetic: glassmorphic panels, glo
 
 This project emerged from an ethnographic curiosity: *how do people perceive color in motion pictures, and can that perception be trained through play?*
 
-The generator exists for the researcher — someone who wants to produce and curate visual data from their own film library. The quiz exists for the player — someone who engages with that data through pattern recognition and cultural memory.
+The generator exists for the researcher  someone who wants to produce and curate visual data from their own film library. The quiz exists for the player  someone who engages with that data through pattern recognition and cultural memory.
 
 The two share a pipeline but serve fundamentally different modes of engagement: **analytical creation** and **intuitive recall**. The UX of each reflects that distinction. The generator is dense, configurable, and utilitarian. The quiz is focused, immediate, and affective.
 
@@ -90,14 +90,14 @@ Got a hard drive full of movies? Here's how to turn your personal film library i
 
 ---
 
-### Step 1 — Clone this repo
+### Step 1  Clone this repo
 
 ```bash
 git clone https://github.com/apshampa/Cinecode-Quiz.git
 cd Cinecode-Quiz
 ```
 
-### Step 2 — Generate barcodes from your movies
+### Step 2  Generate barcodes from your movies
 
 Install the Python dependency and launch the generator:
 
@@ -107,21 +107,21 @@ python cinecode_generator_gui.py
 ```
 
 In the GUI:
-1. **Add your movie folders** — point it at wherever your `.mkv`, `.mp4`, or `.avi` files live. You can add multiple directories.
+1. **Add your movie folders**  point it at wherever your `.mkv`, `.mp4`, or `.avi` files live. You can add multiple directories.
 2. **Set the output directory** to `quiz-app/public/quiz/` inside this project.
-3. **Tweak settings** — adjust bar width/height, enable *Smooth Bars* for cleaner visuals, or switch to *Turbo Mode* (I-frames only) if you want speed over precision.
-4. **Hit Generate** — watch the barcodes render in real-time. Each film produces a PNG barcode and an entry in `quiz_data.json`.
+3. **Tweak settings**  adjust bar width/height, enable *Smooth Bars* for cleaner visuals, or switch to *Turbo Mode* (I-frames only) if you want speed over precision.
+4. **Hit Generate**  watch the barcodes render in real-time. Each film produces a PNG barcode and an entry in `quiz_data.json`.
 
-### Step 3 — Clean up your titles
+### Step 3  Clean up your titles
 
 The generator auto-derives movie titles from filenames, so you'll get things like `"Thegoodthebadandtheugly (1966)"` instead of `"The Good, the Bad and the Ugly (1966)"`.
 
 Use the **Database Manager** tab in the generator GUI:
-1. Click **Title Cleanup** — it shows a before/after preview of every title.
+1. Click **Title Cleanup**  it shows a before/after preview of every title.
 2. Edit any that look wrong inline.
 3. Save. The `quiz_data.json` updates in place.
 
-### Step 4 — Launch the quiz
+### Step 4  Launch the quiz
 
 ```bash
 cd quiz-app
@@ -131,7 +131,7 @@ npm run dev
 
 Open the URL shown in your terminal (usually `http://localhost:3000`). Your movies, your barcodes, your quiz.
 
-### Step 5 — Host it online (optional)
+### Step 5  Host it online (optional)
 
 If you want to share your quiz with others:
 
@@ -146,7 +146,7 @@ If you want to share your quiz with others:
    ```
 3. Push to GitHub and set **Pages → Source** to `main` branch, `/docs` folder.
 
-To update the database later, no rebuild needed — just copy the new data and push:
+To update the database later, no rebuild needed  just copy the new data and push:
 ```bash
 xcopy /E /Y quiz-app\public\quiz docs\quiz
 git add docs/quiz quiz-app/public/quiz

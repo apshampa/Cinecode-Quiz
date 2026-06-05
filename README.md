@@ -1,25 +1,31 @@
-# 🎬 CineCode: Cinematic Color Timelines & Quiz
+# CineCode
 
-CineCode is a two-part interactive experience designed to explore the visual storytelling of cinema through color. By compressing entire feature films into chronological color barcodes (CineCodes), it reveals the narrative's emotional arc, pacing, and color grading in a single visual timeline.
+**Decoding cinema through color.**
 
-This repository contains:
-1. **The CineCode Generator & Manager:** A Python-based desktop application for batch-extracting color barcodes and dominant palettes from local video files.
-2. **The CineCode Quiz:** A React + TypeScript web application where users test their movie knowledge by decoding these color barcodes.
+Every film carries a hidden visual signature — a chromatic fingerprint shaped by the choices of cinematographers, colorists, and directors. CineCode compresses entire feature films into single-image color timelines, turning hours of footage into an artifact you can read at a glance.
 
----
+Then it asks you: *can you recognize the film from its colors alone?*
 
-## 🎨 UX/UI Design Philosophy
-
-The CineCode ecosystem is built around **aesthetic immersion** and **gamified discovery**:
-
-*   **Atmospheric Immersion:** Styled with a premium dark-theme theater aesthetic. Utilizes rich HSL color palettes, subtle glow effects, and glassmorphic panels (`backdrop-filter`) to mimic the feel of an auditorium.
-*   **The Narrative of Color:** Color is a powerful storytelling tool. CineCode allows users to see a movie's transition from dark, somber tones (e.g., *The Matrix*) to vibrant, stylized grading (e.g., *La La Land*), highlighting how color guides audience emotion.
-*   **Interactive Gamification:** The quiz features a high-fidelity visual matching loop. It uses responsive progress tracking, streak multiplier counters, visual heart indicators, and micro-animations for feedback transitions.
-*   **Progressive Creator Tooling:** The generator app features a progressive real-time visualizer that renders the barcode frame-by-frame as FFmpeg processes the file, giving the creator immediate visual feedback on their output.
+> 🎮 **Play the quiz live →** [cinequiz.revanth.design](https://cinequiz.revanth.design)
+> 🎨 **Generate your own →** [cinecode.revanth.design](https://cinecode.revanth.design)
 
 ---
 
-## 🕹️ Component Overview
+## Why Color?
+
+Color grading is one of the most emotionally loaded decisions in filmmaking — yet it's invisible to most audiences. A cold teal wash tells you something is clinical. Amber warmth signals nostalgia. A sudden shift to saturated red screams danger.
+
+CineCode makes this language *legible*. By extracting every frame's dominant hue and laying them out chronologically, it reveals patterns that even cinephiles rarely notice:
+
+- **The Matrix** reads as an almost monochromatic green-black gradient — its digital dystopia encoded in color.
+- **La La Land** oscillates between deep indigo nights and golden-hour warmth, its romance visible as rhythm.
+- **Moonlight** shifts across three distinct palettes — one for each chapter of its protagonist's life.
+
+The barcode isn't decoration. It's a *data visualization of directorial intent*.
+
+---
+
+## The System
 
 ```mermaid
 graph TD
@@ -31,94 +37,79 @@ graph TD
     E -->|Interactive Quiz| F[User Gameplay]
 ```
 
-### 1. CineCode Batch Generator & Manager (Desktop app)
-A creation-side utility written in Python with Tkinter and styled to offer clean, card-based configurations:
-*   **Directories Scanning:** Exclude folders dynamically (e.g., deleted scenes, extras).
-*   **CineCode Settings:** Custom bar width, height, and **Smooth Bars** (averages colors for clean minimal visuals).
-*   **Speed Optimization:** Skip non-reference frames or load only keyframes (I-frames) for super-fast runs.
-*   **Multi-Select Database Manager:** Select, filter, and delete movie barcodes and database records in bulk.
-*   **Title Cleanup Preview:** An interactive modal presenting a side-by-side comparison of original vs cleaned titles before writing to the database. Supports inline editing.
+CineCode is two tools built around a shared data pipeline:
 
-### 2. CineCode Quiz (Web app)
-A TypeScript/Vite application optimized for smooth animations and responsiveness across mobile and desktop layout dimensions:
-*   **Gameplay Modes:** Randomly swaps between guessing the film title from the barcode, or identifying the correct barcode from the film title.
-*   **Dominant Color Reveals:** On correct guesses, the app unfolds a custom-curated dominant color swatch palette of the film.
-*   **High Performance:** Incorporates skeletons/shimmers for barcode image loading, and falls back to CSS linear gradients of the color palette if assets are missing.
+### 🛠 The Generator — *creation tool*
+
+A Python desktop app for batch-extracting CineCode barcodes from local video files. Built with Tkinter, designed for speed and control.
+
+| Feature | Detail |
+|---|---|
+| **Smart scanning** | Point at a movies folder. Excludes extras, featurettes, trailers automatically. |
+| **Rendering modes** | Full-frame extraction or I-frame-only turbo mode for 10x speed. |
+| **Smooth bars** | Averages adjacent colors for a cleaner, more painterly output. |
+| **Live preview** | Watch the barcode render in real-time as FFmpeg processes each frame. |
+| **Database manager** | Multi-select, filter, rename, and delete entries. Bulk title cleanup with inline editing and before/after preview. |
+
+### 🎮 The Quiz — *play experience*
+
+A React + TypeScript web app that turns the barcode library into a guessing game. Two question types alternate randomly:
+
+- **"Which film is this?"** — You see a barcode, pick from four movie titles.
+- **"Which barcode is this?"** — You see a title, pick from four barcodes.
+
+Wrong answers cost a heart. Streaks multiply your score. After each answer, the film's dominant color palette fans out as a reveal — a small reward loop that teaches you to *see* color differently over time.
+
+The interface is built around a theater-dark aesthetic: glassmorphic panels, glow feedback on correct/incorrect answers, skeleton loaders for image states, and CSS gradient fallbacks when assets are missing.
 
 ---
 
-## ⚙️ Setup & Running Locally
+## Design Thinking
+
+This project emerged from an ethnographic curiosity: *how do people perceive color in motion pictures, and can that perception be trained through play?*
+
+The generator exists for the researcher — someone who wants to produce and curate visual data from their own film library. The quiz exists for the player — someone who engages with that data through pattern recognition and cultural memory.
+
+The two share a pipeline but serve fundamentally different modes of engagement: **analytical creation** and **intuitive recall**. The UX of each reflects that distinction. The generator is dense, configurable, and utilitarian. The quiz is focused, immediate, and affective.
+
+Both are designed to make a single argument: **color is narrative**.
+
+---
+
+## Running Locally
 
 ### Prerequisites
-*   **Python 3.8+** (for the Generator)
-*   **Node.js 18+** (for the Quiz App)
-*   **FFmpeg** (required by the generator to read video streams)
+- **Python 3.8+** and **FFmpeg** (for the Generator)
+- **Node.js 18+** (for the Quiz)
 
----
-
-### Running the Generator GUI
-1. Navigate to the project root directory.
-2. Install the image processing dependency:
-   ```bash
-   pip install Pillow
-   ```
-3. Run the generator:
-   ```bash
-   python cinecode_generator_gui.py
-   ```
-4. Point the "Movies Directory" to your local movies folder and the "Output Directory" to `quiz-app/public/quiz`.
-
----
-
-### Running the Quiz Web App
-1. Navigate to the frontend directory:
-   ```bash
-   cd quiz-app
-   ```
-2. Install Node packages:
-   ```bash
-   npm install
-   ```
-3. Run the Vite development server:
-   ```bash
-   npm run dev
-   ```
-4. Open your browser to the URL displayed (usually `http://localhost:5173`).
-
----
-
-## 🌐 Publishing to GitHub
-
-Since Git is required to host code on GitHub, follow the steps below to initialize and upload this project.
-
-### 1. Install Git (If not already installed)
-If Git is missing from your command line, install it easily on Windows via terminal:
-```powershell
-winget install --id Git.Git -e --source winget
+### Generator
+```bash
+pip install Pillow
+python cinecode_generator_gui.py
 ```
-*(After installing, close and reopen your terminal window so the `git` command becomes active).*
+Point the output directory to `quiz-app/public/quiz/`.
 
-### 2. Initialize and Push to GitHub
-1. Create a new repository on your GitHub account (do not initialize with a README, `.gitignore`, or license).
-2. Open terminal in the project root folder (`c:\Users\revan\Downloads\cinecode`) and run:
-   ```bash
-   # Initialize local repository
-   git init
+### Quiz
+```bash
+cd quiz-app
+npm install
+npm run dev
+```
 
-   # Add all files to staging
-   git add .
+### Updating the live quiz database
+No rebuild needed — quiz data and barcode images are static assets:
+```bash
+# Copy your updated db to both source and live site
+xcopy /E /Y quiz-app\public\quiz docs\quiz
 
-   # Commit changes
-   git commit -m "Initial commit: CineCode Generator and Quiz App"
+# Commit and push
+git add docs/quiz quiz-app/public/quiz
+git commit -m "Update movie database"
+git push origin main
+```
 
-   # Rename branch to main
-   git branch -M main
+---
 
-   # Link your local repo to GitHub (Replace with your actual GitHub URL)
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+## License
 
-   # Push code to GitHub
-   git push -u origin main
-   ```
-
-Now, your code is fully hosted and accessible on GitHub!
+Built by [Revanth](https://revanth.design). The barcodes are derivative visual data from copyrighted films, generated for educational and research purposes.

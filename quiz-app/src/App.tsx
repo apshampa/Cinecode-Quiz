@@ -71,7 +71,7 @@ function App() {
   const [highScore, setHighScore] = useState(0);
   const [lives, setLives] = useState(3);
   const [questionType, setQuestionType] = useState<'guess-movie' | 'guess-barcode'>('guess-movie');
-  
+
   const [correctMovie, setCorrectMovie] = useState<MovieRecord | null>(null);
   const [options, setOptions] = useState<MovieRecord[]>([]);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
@@ -234,11 +234,11 @@ function App() {
             <Trophy size={14} style={{ display: 'inline', marginRight: '4px', verticalAlign: 'middle' }} />
             High Score: {highScore} pts
           </div>
-          
+
           <h2 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '1rem' }}>Ready to decode?</h2>
           <p style={{ color: 'var(--text-muted)', maxWidth: '500px', marginBottom: '2rem', lineHeight: '1.6' }}>
-            A CineCode is a chronological barcode visualization of a movie's color palette.
-            We will show you a barcode and you guess the film, or vice-versa.
+            A CineCode is a visualization of a movie's color.
+            We will show you a cinecode and you guess the film, or vice-versa.
           </p>
 
           {/* Database Alert status */}
@@ -268,7 +268,7 @@ function App() {
               gap: '8px',
               fontSize: '0.95rem'
             }}>
-              <CheckCircle2 size={18} /> Detected your local database with {quizData.length} movies!
+              <CheckCircle2 size={18} /> Currently a Database with {quizData.length} movies!
             </div>
           )}
 
@@ -283,21 +283,21 @@ function App() {
       {/* GAMEPLAY VIEW */}
       {gameState === 'playing' && correctMovie && (
         <main className={`glass-panel ${shakeCard ? 'shake' : ''}`} style={{ padding: '2rem' }}>
-          
+
           {/* Progress Header */}
           <div className="game-header">
             <div className="stat-box" style={{ color: 'var(--primary)' }}>
               <span>Score: {score}</span>
             </div>
-            
+
             <div className="stat-box" style={{ color: '#f59e0b', visibility: streak > 0 ? 'visible' : 'hidden' }}>
               <Flame size={20} fill="#f59e0b" />
               <span>{streak} Streak</span>
             </div>
-            
+
             <div className="hearts-container">
               {[1, 2, 3].map((heartNum) => (
-                <Heart 
+                <Heart
                   key={heartNum}
                   className={`heart-svg ${heartNum > lives ? 'heart-empty' : ''} ${heartNum === lives + 1 && isAnswered && !feedback?.isCorrect ? 'heart-lost' : ''}`}
                 />
@@ -309,12 +309,12 @@ function App() {
           {questionType === 'guess-movie' && (
             <div className="question-container">
               <h3 style={{ fontSize: '1.25rem', marginBottom: '1.25rem', textAlign: 'center' }}>
-                Which movie does this color barcode belong to?
+                Which movie does this color cinecode belong to?
               </h3>
-              
-              <div 
+
+              <div
                 className="barcode-wrapper"
-                style={{ 
+                style={{
                   borderColor: isAnswered ? (feedback?.isCorrect ? 'var(--success)' : 'var(--error)') : 'var(--border)',
                   boxShadow: isAnswered ? (feedback?.isCorrect ? '0 0 25px var(--success-glow)' : '0 0 25px var(--error-glow)') : 'var(--shadow)'
                 }}
@@ -322,7 +322,7 @@ function App() {
                 {/* Shimmer loading skeleton state */}
                 {!imageErrorsRef.current[correctMovie.filename] && !isSampleMode && isMainImageLoading && (
                   <div className="skeleton-loader">
-                    <span className="skeleton-text">Loading CineCode Barcode...</span>
+                    <span className="skeleton-text">Loading CineCode...</span>
                   </div>
                 )}
 
@@ -343,8 +343,8 @@ function App() {
                     </span>
                   </div>
                 ) : (
-                  <img 
-                    src={`${import.meta.env.BASE_URL}quiz/${correctMovie.filename}`} 
+                  <img
+                    src={`${import.meta.env.BASE_URL}quiz/${correctMovie.filename}`}
                     className="barcode-image"
                     style={{ opacity: isMainImageLoading ? 0 : 1 }}
                     alt="Movie Barcode"
@@ -432,7 +432,7 @@ function App() {
                           justifyContent: 'center'
                         }} />
                       ) : (
-                        <img 
+                        <img
                           src={`${import.meta.env.BASE_URL}quiz/${option.filename}`}
                           className="barcode-image"
                           style={{ opacity: isGridImgLoaded ? 1 : 0 }}
@@ -463,10 +463,10 @@ function App() {
                 </span>
                 <div className="color-palette-reveal">
                   {correctMovie.colors.map((color, idx) => (
-                    <div 
-                      key={idx} 
-                      className="color-swatch" 
-                      style={{ backgroundColor: color }} 
+                    <div
+                      key={idx}
+                      className="color-swatch"
+                      style={{ backgroundColor: color }}
                       title={color}
                     />
                   ))}
@@ -475,9 +475,9 @@ function App() {
 
               {/* Next Question Trigger */}
               {lives > 0 && (
-                <button 
-                  className="btn btn-primary" 
-                  onClick={nextQuestion} 
+                <button
+                  className="btn btn-primary"
+                  onClick={nextQuestion}
                   style={{ marginTop: '2rem', padding: '12px 35px' }}
                 >
                   Next Movie &rarr;
@@ -505,7 +505,7 @@ function App() {
       {gameState === 'gameover' && (
         <main className="glass-panel gameover-container" style={{ animation: 'slide-up 0.4s ease' }}>
           <div className="badge-highlight">Game Over</div>
-          
+
           <h2 style={{ fontSize: '2.5rem', fontWeight: 800 }}>Finished!</h2>
           <div className="final-score">{score}</div>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>points earned</p>
@@ -524,11 +524,11 @@ function App() {
           </div>
 
           <p style={{ color: 'var(--text-muted)', maxWidth: '350px', marginBottom: '2rem', fontSize: '0.95rem' }}>
-            {score >= highScore && score > 0 
+            {score >= highScore && score > 0
               ? "👑 SPECTACULAR! You set a new personal record! You truly are a cinematic connoisseur."
-              : score >= 50 
-              ? "Good job! You have a solid eye for movie color aesthetics."
-              : "Keep studying those color palettes and try again!"}
+              : score >= 50
+                ? "Good job! You have a solid eye for movie color aesthetics."
+                : "Keep studying those color palettes and try again!"}
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', width: '100%', maxWidth: '350px', justifyContent: 'center' }}>
@@ -543,13 +543,13 @@ function App() {
       )}
 
       {/* FOOTER LINK: UPDATED REDIRECT URL */}
-      <a 
-        href="https://cinecode.revanth.design/" 
-        target="_blank" 
-        rel="noopener noreferrer" 
+      <a
+        href="https://cinecode.revanth.design/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="footer-link"
       >
-        <span>Generate your own Barcodes at CineCode Main</span>
+        <span>Generate your own Cinecodes here!</span>
         <ExternalLink size={14} />
       </a>
     </div>

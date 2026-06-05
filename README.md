@@ -90,14 +90,14 @@ Got a hard drive full of movies? Here's how to turn your personal film library i
 
 ---
 
-### Step 1  Clone this repo
+### Step 1 — Clone this repo
 
 ```bash
 git clone https://github.com/apshampa/Cinecode-Quiz.git
 cd Cinecode-Quiz
 ```
 
-### Step 2  Generate barcodes from your movies
+### Step 2 — Generate barcodes from your movies
 
 Install the Python dependency and launch the generator:
 
@@ -107,21 +107,21 @@ python cinecode_generator_gui.py
 ```
 
 In the GUI:
-1. **Add your movie folders**  point it at wherever your `.mkv`, `.mp4`, or `.avi` files live. You can add multiple directories.
+1. **Add your movie folders** — point it at wherever your `.mkv`, `.mp4`, or `.avi` files live. You can add multiple directories.
 2. **Set the output directory** to `quiz-app/public/quiz/` inside this project.
-3. **Tweak settings**  adjust bar width/height, enable *Smooth Bars* for cleaner visuals, or switch to *Turbo Mode* (I-frames only) if you want speed over precision.
-4. **Hit Generate**  watch the barcodes render in real-time. Each film produces a PNG barcode and an entry in `quiz_data.json`.
+3. **Tweak settings** — adjust bar width/height, enable *Smooth Bars* for cleaner visuals, or switch to *Turbo Mode* (I-frames only) if you want speed over precision.
+4. **Hit Generate** — watch the barcodes render in real-time. Each film produces a PNG barcode and an entry in `quiz_data.json`.
 
-### Step 3  Clean up your titles
+### Step 3 — Clean up your titles
 
 The generator auto-derives movie titles from filenames, so you'll get things like `"Thegoodthebadandtheugly (1966)"` instead of `"The Good, the Bad and the Ugly (1966)"`.
 
 Use the **Database Manager** tab in the generator GUI:
-1. Click **Title Cleanup**  it shows a before/after preview of every title.
+1. Click **Title Cleanup** — it shows a before/after preview of every title.
 2. Edit any that look wrong inline.
 3. Save. The `quiz_data.json` updates in place.
 
-### Step 4  Launch the quiz
+### Step 4 — Launch the quiz
 
 ```bash
 cd quiz-app
@@ -131,7 +131,7 @@ npm run dev
 
 Open the URL shown in your terminal (usually `http://localhost:3000`). Your movies, your barcodes, your quiz.
 
-### Step 5  Host it online (optional)
+### Step 5 — Host it online (optional)
 
 If you want to share your quiz with others:
 
@@ -146,7 +146,7 @@ If you want to share your quiz with others:
    ```
 3. Push to GitHub and set **Pages → Source** to `main` branch, `/docs` folder.
 
-To update the database later, no rebuild needed  just copy the new data and push:
+To update the database later, no rebuild needed — just copy the new data and push:
 ```bash
 xcopy /E /Y quiz-app\public\quiz docs\quiz
 git add docs/quiz quiz-app/public/quiz

@@ -897,6 +897,8 @@ class CineCodeGeneratorApp:
                 dirs[:] = [d for d in dirs if d not in self.exclusions]
 
                 for file in files:
+                    if file.startswith("._") or file.startswith("."):
+                        continue
                     ext = os.path.splitext(file)[1].lower()
                     if ext in video_extensions:
                         full_path = os.path.join(root, file)

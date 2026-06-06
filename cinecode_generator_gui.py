@@ -912,12 +912,12 @@ class CineCodeGeneratorApp:
         # Load existing database entries
         quiz_data_path = os.path.join(output_dir, "quiz_data.json")
         quiz_records = []
-        existing_titles = set()
+        existing_filenames = set()
         if os.path.exists(quiz_data_path):
             try:
                 with open(quiz_data_path, "r", encoding="utf-8") as f:
                     quiz_records = json.load(f)
-                    existing_titles = {record["title"] for record in quiz_records}
+                    existing_filenames = {record["filename"] for record in quiz_records if "filename" in record}
                 self.log(f"Loaded {len(quiz_records)} existing records from quiz_data.json.")
             except Exception as e:
                 self.log(f"Failed to load existing quiz_data.json (overwriting): {str(e)}")
@@ -953,8 +953,8 @@ class CineCodeGeneratorApp:
             output_png_filename = f"cinecode-{safe_title_slug}.png"
             output_png_path = os.path.join(output_dir, output_png_filename)
 
-            if movie_title in existing_titles and os.path.exists(output_png_path):
-                self.log("  -> Cinecode already exists. Skipping.")
+            if output_png_filename in existing_filenames and os.path.exists(output_png_path):
+                self.log("  -> Cinecode already exists (matched by filename). Skipping.")
                 continue
 
             self.preview_queue.put(("clear_preview",))

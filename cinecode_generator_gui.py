@@ -983,7 +983,7 @@ class CineCodeGeneratorApp:
             skip_args = []
             selected_mode = self.mode_var.get()
             if selected_mode == "Fast (Skip B-Frames)":
-                skip_args = ["-skip_frame", "nonref"]
+                skip_args = ["-skip_frame", "noref"]
             elif selected_mode == "Turbo (I-Frames Only)":
                 skip_args = ["-skip_frame", "nokey"]
 
@@ -1008,8 +1008,21 @@ class CineCodeGeneratorApp:
                     startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
 
                 self.active_process = subprocess.Popen(
-                    ffmpeg_cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, startupinfo=startupinfo
+                    ffmpeg_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, startupinfo=startupinfo
                 )
+
+                # Read stderr in a separate thread to prevent deadlock
+                stderr_lines = []
+                def _read_stderr(pipe, output_list):
+                    try:
+                        for line in pipe:
+                            if isinstance(line, bytes):
+                                line = line.decode("utf-8", errors="replace")
+                            output_list.append(line.rstrip())
+                    except Exception:
+                        pass
+                stderr_thread = threading.Thread(target=_read_stderr, args=(self.active_process.stderr, stderr_lines), daemon=True)
+                stderr_thread.start()
 
                 frames_data = []
                 x = 0
@@ -1042,6 +1055,7 @@ class CineCodeGeneratorApp:
 
                 self.active_process.stdout.close()
                 self.active_process.wait()
+                stderr_thread.join(timeout=5)
                 self.active_process = None
 
                 if self.abort_event.is_set():
@@ -1051,7 +1065,9 @@ class CineCodeGeneratorApp:
 
                 num_extracted = len(frames_data)
                 if num_extracted == 0:
-                    self.log("  -> ERROR: FFmpeg frame reading failed. Skipping.")
+                    # Show the actual FFmpeg error instead of a generic message
+                    err_detail = "\n".join(stderr_lines[-10:]) if stderr_lines else "No stderr output captured"
+                    self.log(f"  -> ERROR: FFmpeg produced 0 frames. Skipping.\n     FFmpeg stderr:\n     {err_detail}")
                     continue
 
                 # Compile final Pillow Image

@@ -14,8 +14,12 @@ export const StatsModal: React.FC<Props> = ({ onClose }) => {
     : 0;
 
   return (
-    <div className="modal-overlay">
-      <div className="glass-panel modal-content" style={{ animation: 'slide-up 0.3s ease', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto' }}>
+    <div className="modal-overlay" onClick={onClose}>
+      <div 
+        className="glass-panel modal-content" 
+        style={{ animation: 'slide-up 0.3s ease', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto' }}
+        onClick={(e) => e.stopPropagation()}
+      >
         <button className="modal-close" onClick={onClose}>&times;</button>
         
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>

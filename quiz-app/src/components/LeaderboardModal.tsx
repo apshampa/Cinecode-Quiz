@@ -10,8 +10,12 @@ export const LeaderboardModal: React.FC<Props> = ({ onClose }) => {
   const leaderboard = Storage.getLeaderboard();
 
   return (
-    <div className="modal-overlay">
-      <div className="glass-panel modal-content" style={{ animation: 'slide-up 0.3s ease', maxWidth: '500px' }}>
+    <div className="modal-overlay" onClick={onClose}>
+      <div 
+        className="glass-panel modal-content" 
+        style={{ animation: 'slide-up 0.3s ease', maxWidth: '500px' }}
+        onClick={(e) => e.stopPropagation()}
+      >
         <button className="modal-close" onClick={onClose}>&times;</button>
         
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>

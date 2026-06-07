@@ -8,6 +8,7 @@ Then it asks you: *can you recognize the film from its colors alone?*
 
 >  **Play the quiz live →** [cinequiz.revanth.design](https://cinequiz.revanth.design)
 >  **Generate your own cinecodes →** [cinecode.revanth.design](https://cinecode.revanth.design)
+>  **Under the hood architecture →** [TECHNICAL.md](file:///c:/Users/revan/Downloads/cinecode/TECHNICAL.md)
 
 ---
 

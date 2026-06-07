@@ -411,6 +411,7 @@ class CineCodeGeneratorApp:
 
         self.db_listbox = tk.Listbox(list_container, font=("TkDefaultFont", 10), borderwidth=1, relief=tk.SOLID, selectmode=tk.EXTENDED)
         self.db_listbox.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
+        self.db_listbox.bind("<Double-Button-1>", lambda event: self.edit_database_entry())
         self.db_listbox.bind("<<ListboxSelect>>", self.on_database_select)
 
         db_scroll = ttk.Scrollbar(list_container, orient=tk.VERTICAL, command=self.db_listbox.yview)
@@ -426,6 +427,9 @@ class CineCodeGeneratorApp:
 
         self.delete_btn = ttk.Button(actions_frame, text="Delete Selected Movies From Database", state=tk.DISABLED, command=self.delete_database_entry)
         self.delete_btn.pack(side=tk.RIGHT, pady=5)
+
+        self.edit_btn = ttk.Button(actions_frame, text="Edit Selected Title", state=tk.DISABLED, command=self.edit_database_entry)
+        self.edit_btn.pack(side=tk.RIGHT, padx=(0, 5), pady=5)
 
     # ------------------- DATA MANAGEMENT LOGIC -------------------
     def browse_db_folder(self):
@@ -480,9 +484,68 @@ class CineCodeGeneratorApp:
         if count == 0:
             self.selection_lbl.configure(text="No items selected")
             self.delete_btn.configure(state=tk.DISABLED)
+            self.edit_btn.configure(state=tk.DISABLED)
         else:
             self.selection_lbl.configure(text=f"Selected {count} of {total} movies")
             self.delete_btn.configure(state=tk.NORMAL)
+            self.edit_btn.configure(state=tk.NORMAL if count == 1 else tk.DISABLED)
+
+    def edit_database_entry(self):
+        sel = self.db_listbox.curselection()
+        if not sel or len(sel) != 1:
+            messagebox.showinfo("Edit Title", "Please select exactly one movie to edit.")
+            return
+
+        record = self.filtered_db_records[sel[0]]
+        old_title = record.get("title", "")
+
+        # Open edit dialog
+        dialog = tk.Toplevel(self.root)
+        dialog.title("Edit Movie Title")
+        dialog.geometry("500x180")
+        dialog.resizable(False, False)
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        ttk.Label(dialog, text="Current Title:", font=("TkDefaultFont", 10, "bold")).pack(anchor=tk.W, padx=20, pady=(20, 5))
+        ttk.Label(dialog, text=old_title, font=("TkDefaultFont", 10), foreground="gray").pack(anchor=tk.W, padx=20)
+
+        ttk.Label(dialog, text="New Title:", font=("TkDefaultFont", 10, "bold")).pack(anchor=tk.W, padx=20, pady=(15, 5))
+        new_title_var = tk.StringVar(value=old_title)
+        title_entry = ttk.Entry(dialog, textvariable=new_title_var, width=60)
+        title_entry.pack(anchor=tk.W, padx=20)
+        title_entry.select_range(0, tk.END)
+        title_entry.focus_set()
+
+        btn_frame = ttk.Frame(dialog)
+        btn_frame.pack(fill=tk.X, padx=20, pady=(15, 10))
+
+        def save_edit():
+            new_title = new_title_var.get().strip()
+            if not new_title:
+                messagebox.showerror("Error", "Title cannot be empty.", parent=dialog)
+                return
+            if new_title == old_title:
+                dialog.destroy()
+                return
+
+            record["title"] = new_title
+
+            db_dir = self.db_folder_var.get().strip()
+            quiz_json_path = os.path.join(db_dir, "quiz_data.json")
+            try:
+                with open(quiz_json_path, "w", encoding="utf-8") as f:
+                    json.dump(self.db_records, f, indent=4)
+                dialog.destroy()
+                self.load_database_json()
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to save: {str(e)}", parent=dialog)
+
+        title_entry.bind("<Return>", lambda e: save_edit())
+        ttk.Button(btn_frame, text="Save", command=save_edit).pack(side=tk.RIGHT, padx=5)
+        ttk.Button(btn_frame, text="Cancel", command=dialog.destroy).pack(side=tk.RIGHT, padx=5)
+
+        self.root.wait_window(dialog)
 
     def delete_database_entry(self):
         sel = self.db_listbox.curselection()

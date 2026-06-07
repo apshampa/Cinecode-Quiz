@@ -634,7 +634,9 @@ function App() {
         <span>Generate your own Cinecodes here!</span>
         <ExternalLink size={14} />
       </a>
-      <footer className="credit-footer">Created by Revanth</footer>
+      <footer className="credit-footer">
+        Created by <a href="https://revanth.design" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline', textUnderlineOffset: '2px' }}>Revanth</a>
+      </footer>
     </div>
   );
 }

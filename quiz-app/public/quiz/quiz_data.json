@@ -1,52 +1,65 @@
 [
     {
+        "title": "101 Dalmatians (1961)",
+        "filename": "cinecode-1961_101_dalmatians.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#9090A8",
+            "#0048A8",
+            "#C09060"
+        ],
+        "duration_seconds": 4576
+    },
+    {
         "title": "12 Angry Men (1957)",
         "filename": "cinecode-12_angry_men_1957_bluray_1080.png",
         "colors": [
             "#484848",
-            "#183018"
+            "#181818",
+            "#787878"
         ],
         "duration_seconds": 5781
     },
     {
         "title": "12 Years A Slave (2013)",
-        "filename": "cinecode-12yearsaslave2013720pblurayx264yify.png",
+        "filename": "cinecode-12_years_a_slave_2013_720p_bluray_x264_yify.png",
         "colors": [
             "#606048",
             "#181818",
-            "#909078",
-            "#F0F0F0",
-            "#603018"
+            "#789078",
+            "#603018",
+            "#F0F0F0"
         ],
         "duration_seconds": 8050
     },
     {
         "title": "1917 (2019)",
-        "filename": "cinecode-191720191080pblurayx264aac51-ytsmx.png",
+        "filename": "cinecode-1917_2019_1080p_bluray_x264_aac5_1_yts_mx.png",
         "colors": [
             "#606048",
-            "#303030",
+            "#181800",
             "#909078",
-            "#180000",
-            "#90C0A8"
+            "#183048",
+            "#A8C0A8"
         ],
         "duration_seconds": 7138
     },
     {
         "title": "2001 A Space Odyssey (1968)",
-        "filename": "cinecode-2001aspaceodyssey19682160p4kblurayx26510bitaac51-ytsmx.png",
+        "filename": "cinecode-2001_a_space_odyssey_1968_2160p_4k_bluray_x265_10bit_aac5_1_yts_mx.png",
         "colors": [
             "#303030",
             "#606060",
             "#909090",
             "#781818",
-            "#D83048"
+            "#C0A8C0"
         ],
         "duration_seconds": 8929
     },
     {
-        "title": "20Thcenturywomen (2016)",
-        "filename": "cinecode-20thcenturywomen2016720pblurayx264-ytsag.png",
+        "title": "20Th Century Women (2016)",
+        "filename": "cinecode-20th_century_women_2016_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#303030",
             "#606060",
@@ -55,18 +68,76 @@
         "duration_seconds": 7124
     },
     {
-        "title": "A Dangerous Method (2011)",
-        "filename": "cinecode-adangerousmethod2011720pbrripx264.png",
+        "title": "3 10 To Yuma Full Movie",
+        "filename": "cinecode-3_10_to_yuma_full_movie.png",
+        "colors": [
+            "#483030",
+            "#181800",
+            "#786060",
+            "#D8C0A8",
+            "#A89078"
+        ],
+        "duration_seconds": 7350
+    },
+    {
+        "title": "500 Days Of Summer (2009)",
+        "filename": "cinecode-500_days_of_summer_2009_720p_bdrip_x264_vlis.png",
         "colors": [
             "#303030",
             "#606048",
-            "#909090"
+            "#783000"
+        ],
+        "duration_seconds": 5704
+    },
+    {
+        "title": "A Dangerous Method (2011)",
+        "filename": "cinecode-a_dangerous_method_2011_720p_brrip_x264.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909078"
         ],
         "duration_seconds": 5954
     },
     {
-        "title": "A Streetcar Named Desire Marlon Brando (1951)",
-        "filename": "cinecode-a_streetcar_named_desire_-_marlon_brando_1951_eng_subs_720p_h264-mp4.png",
+        "title": "A Disney Christmas Gift (1982)",
+        "filename": "cinecode-1982_a_disney_christmas_gift.png",
+        "colors": [
+            "#606060",
+            "#303030",
+            "#909078",
+            "#C0C0A8",
+            "#907830"
+        ],
+        "duration_seconds": 2894
+    },
+    {
+        "title": "A Goofy Movie (1995)",
+        "filename": "cinecode-1995_a_goofy_movie.png",
+        "colors": [
+            "#303048",
+            "#786060",
+            "#301800",
+            "#7890A8",
+            "#781818"
+        ],
+        "duration_seconds": 4473
+    },
+    {
+        "title": "A Million Ways To Die In The West (2014)",
+        "filename": "cinecode-a_million_ways_to_die_in_the_west_2014_720p_bluray_x264_yify.png",
+        "colors": [
+            "#301818",
+            "#907860",
+            "#604848",
+            "#A8A890",
+            "#D8C0C0"
+        ],
+        "duration_seconds": 6954
+    },
+    {
+        "title": "A Streetcar Named Desire   Marlon Brando (1951)",
+        "filename": "cinecode-a_streetcar_named_desire_marlon_brando_1951_eng_subs_720p_h264_mp4.png",
         "colors": [
             "#181818",
             "#484848"
@@ -75,11 +146,12 @@
     },
     {
         "title": "A Trip To The Moon (1902)",
-        "filename": "cinecode-a_trip_to_the_moon_1902_1080p_brrip_x264_ac3-ameet6233_tmrg.png",
+        "filename": "cinecode-a_trip_to_the_moon_1902_1080p_brrip_x264_ac3_ameet6233_t_m_r_g.png",
         "colors": [
             "#786030",
             "#181818",
-            "#A89060"
+            "#487860",
+            "#909060"
         ],
         "duration_seconds": 936
     },
@@ -100,14 +172,49 @@
             "#303030",
             "#606060",
             "#789090",
-            "#781818",
-            "#90A8D8"
+            "#781818"
         ],
         "duration_seconds": 5674
     },
     {
+        "title": "Aladdin (1992)",
+        "filename": "cinecode-1992_aladdin.png",
+        "colors": [
+            "#181860",
+            "#180000",
+            "#903018",
+            "#600000",
+            "#786078"
+        ],
+        "duration_seconds": 5200
+    },
+    {
+        "title": "Aladdin the return of Jaafar (1994)",
+        "filename": "cinecode-1994_aladdin_the_return_of_jafar.png",
+        "colors": [
+            "#603030",
+            "#606078",
+            "#303060",
+            "#181800",
+            "#C03018"
+        ],
+        "duration_seconds": 4145
+    },
+    {
+        "title": "Alice in Wonderland (1951)",
+        "filename": "cinecode-1951_alice_in_wonderland.png",
+        "colors": [
+            "#484848",
+            "#181818",
+            "#787860",
+            "#601818",
+            "#486090"
+        ],
+        "duration_seconds": 4328
+    },
+    {
         "title": "Alpha (2018)",
-        "filename": "cinecode-alpha2018hdripxvidac3-evoetmovies.png",
+        "filename": "cinecode-alpha_2018_hdrip_xvid_ac3_evo_etmovies.png",
         "colors": [
             "#181818",
             "#606048",
@@ -118,89 +225,113 @@
         "duration_seconds": 5790
     },
     {
+        "title": "American Beauty (1999)",
+        "filename": "cinecode-american_beauty_1999_1080p_brrip_x264_bokutox_yify.png",
+        "colors": [
+            "#181818",
+            "#606060",
+            "#909090",
+            "#603030",
+            "#303060"
+        ],
+        "duration_seconds": 7300
+    },
+    {
+        "title": "American Psycho (2000)",
+        "filename": "cinecode-american_psycho_2000_1080p_brrip_x264_yify.png",
+        "colors": [
+            "#181818",
+            "#484848",
+            "#787878",
+            "#A8A8A8"
+        ],
+        "duration_seconds": 6122
+    },
+    {
         "title": "Any Given Sunday Directors Cut (1999)",
-        "filename": "cinecode-anygivensundaydirectorscut1999720pbrripx264yify.png",
+        "filename": "cinecode-any_given_sunday_directors_cut_1999_720p_brrip_x264_yify.png",
         "colors": [
             "#604830",
             "#301818",
             "#787860",
-            "#A89090",
-            "#A84848"
+            "#A8A8A8",
+            "#A84830"
         ],
         "duration_seconds": 9432
     },
     {
         "title": "Apocalypse Now (1979)",
-        "filename": "cinecode-apocalypsenow19791080pblurayx264-ytsam.png",
+        "filename": "cinecode-apocalypse_now_1979_1080p_bluray_x264_yts_am.png",
         "colors": [
             "#181818",
-            "#604830",
-            "#787860",
-            "#A8A890",
-            "#183060"
+            "#484830",
+            "#787848",
+            "#909090",
+            "#904818"
         ],
         "duration_seconds": 11769
     },
     {
         "title": "Apollo 11 (2019)",
-        "filename": "cinecode-apollo112019720pblurayx264-ytsam.png",
+        "filename": "cinecode-apollo_11_2019_720p_bluray_x264_yts_am.png",
         "colors": [
             "#303030",
             "#606060",
-            "#909090",
+            "#9090A8",
             "#184878",
-            "#4860A8"
+            "#4878A8"
         ],
         "duration_seconds": 5581
     },
     {
         "title": "Atonement (2007)",
-        "filename": "cinecode-atonement2007720pblurayx264-ytsag.png",
+        "filename": "cinecode-atonement_2007_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#181818",
             "#606048",
-            "#909078"
+            "#909078",
+            "#1830D8"
         ],
         "duration_seconds": 7369
     },
     {
         "title": "Back To The Future (1985)",
-        "filename": "cinecode-backtothefuture19851080pblurayx264anoxmous_.png",
+        "filename": "cinecode-back_to_the_future_1985_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#181818",
             "#604848",
-            "#183060",
-            "#607878",
-            "#4860C0"
+            "#787878",
+            "#C0C0D8",
+            "#303078"
         ],
         "duration_seconds": 6961
     },
     {
-        "title": "Back To The Future II (1989)",
-        "filename": "cinecode-backtothefutureii19891080pblurayx264anoxmous_.png",
+        "title": "Back To The Future Ii (1989)",
+        "filename": "cinecode-back_to_the_future_ii_1989_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#181818",
             "#484848",
-            "#787878",
-            "#A8A890"
+            "#787860",
+            "#A89090"
         ],
         "duration_seconds": 6479
     },
     {
-        "title": "Back To The Future III (1990)",
-        "filename": "cinecode-backtothefutureiii19901080pblurayx264anoxmous_.png",
+        "title": "Back To The Future Iii (1990)",
+        "filename": "cinecode-back_to_the_future_iii_1990_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#301818",
             "#604830",
             "#907878",
-            "#486078",
-            "#7890D8"
+            "#A8A8C0",
+            "#303060"
         ],
         "duration_seconds": 7097
     },
     {
         "title": "Batman Begins (2005)",
-        "filename": "cinecode-batmanbegins20051080pblurayx264yify.png",
+        "filename": "cinecode-batman_begins_2005_1080p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -212,19 +343,19 @@
     },
     {
         "title": "Batman Ninja (2018)",
-        "filename": "cinecode-batmanninja20181080pblurayx264-ytsam.png",
+        "filename": "cinecode-batman_ninja_2018_1080p_bluray_x264_yts_am.png",
         "colors": [
-            "#303030",
-            "#606060",
-            "#909078",
-            "#C0C0A8",
+            "#181818",
+            "#484848",
+            "#787860",
+            "#C0A890",
             "#489090"
         ],
         "duration_seconds": 5116
     },
     {
         "title": "Batman The Dark Knight (2008)",
-        "filename": "cinecode-batmanthedarkknight20081080pblurayx264yify.png",
+        "filename": "cinecode-batman_the_dark_knight_2008_1080p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -233,18 +364,56 @@
         "duration_seconds": 9133
     },
     {
+        "title": "Battle Royale (2000)",
+        "filename": "cinecode-battle_royale_2000_directors_cut_1080p_bluray_h264_aac_rarbg.png",
+        "colors": [
+            "#181818",
+            "#484848",
+            "#787878",
+            "#780018",
+            "#906030"
+        ],
+        "duration_seconds": 7316
+    },
+    {
+        "title": "Beauty and the Beast (1991)",
+        "filename": "cinecode-1991_beauty_and_the_beast.png",
+        "colors": [
+            "#301818",
+            "#604830",
+            "#001848",
+            "#786078",
+            "#304860"
+        ],
+        "duration_seconds": 5247
+    },
+    {
+        "title": "Bedknobs and Broomsticks (1971)",
+        "filename": "cinecode-1971_bedknobs_and_broomsticks.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#789090",
+            "#C0A890",
+            "#906000"
+        ],
+        "duration_seconds": 6663
+    },
+    {
         "title": "Bicycle Thieves (1948)",
-        "filename": "cinecode-bicycle_thieves_1948_720p_brrip__sujaidr.png",
+        "filename": "cinecode-bicycle_thieves_1948_720p_brrip_sujaidr.png",
         "colors": [
             "#484848",
             "#787878",
-            "#181818"
+            "#181818",
+            "#781818",
+            "#A8A8A8"
         ],
         "duration_seconds": 5440
     },
     {
         "title": "Black Swan (2010)",
-        "filename": "cinecode-blackswan20101080pblurayx264anoxmous_.png",
+        "filename": "cinecode-black_swan_2010_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#303030",
             "#606060",
@@ -256,7 +425,7 @@
     },
     {
         "title": "Blade Runner 2049 (2017)",
-        "filename": "cinecode-bladerunner204920171080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-blade_runner_2049_2017_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#181818",
             "#484848",
@@ -267,42 +436,43 @@
         "duration_seconds": 9807
     },
     {
-        "title": "Bladerunnerfinalcut (1997)",
-        "filename": "cinecode-bladerunnerfinalcut1997720pblurayx264yify.png",
+        "title": "Blade Runner Final Cut (1997)",
+        "filename": "cinecode-blade_runner_final_cut_1997_720p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#304848",
-            "#607878",
-            "#187878"
+            "#487878",
+            "#90A8A8"
         ],
         "duration_seconds": 7056
     },
     {
         "title": "Blue Is The Warmest Color (2013)",
-        "filename": "cinecode-blue_is_the_warmest_color_2013_720p_bluray_12gb-micromkv.png",
+        "filename": "cinecode-blue_is_the_warmest_color_2013_720p_bluray_1_2gb_micromkv.png",
         "colors": [
             "#483030",
             "#786060",
             "#181800",
-            "#A89090",
-            "#487890"
+            "#909090",
+            "#306090"
         ],
         "duration_seconds": 10808
     },
     {
         "title": "Bohemian Rhapsody (2018)",
-        "filename": "cinecode-bohemianrhapsody2018720pwebripx264-ytsam.png",
+        "filename": "cinecode-bohemian_rhapsody_2018_720p_webrip_x264_yts_am.png",
         "colors": [
             "#181818",
             "#484848",
-            "#787878",
-            "#181860"
+            "#909090",
+            "#C0C0A8",
+            "#F0F0F0"
         ],
         "duration_seconds": 8119
     },
     {
-        "title": "Breakingtherules",
-        "filename": "cinecode-breakingtherulessujaidr.png",
+        "title": "Breaking The Rules",
+        "filename": "cinecode-breaking_the_rules_sujaidr.png",
         "colors": [
             "#606060",
             "#303030",
@@ -314,57 +484,70 @@
     },
     {
         "title": "Brokeback Mountain (2005)",
-        "filename": "cinecode-brokebackmountain2005bluray720px264yify.png",
+        "filename": "cinecode-brokeback_mountain_2005_bluray_720p_x264_yify.png",
         "colors": [
             "#303030",
-            "#606060",
+            "#486060",
             "#180000",
-            "#909090"
+            "#787890",
+            "#A8A890"
         ],
         "duration_seconds": 8067
     },
     {
         "title": "Career Opportunities (1991)",
-        "filename": "cinecode-careeropportunities1991720phdtvx264-shaggy.png",
+        "filename": "cinecode-career_opportunities_1991_720p_hdtv_x264_shaggy.png",
         "colors": [
             "#483030",
             "#606060",
             "#181800",
-            "#C090A8"
+            "#901818"
         ],
         "duration_seconds": 4968
     },
     {
         "title": "Casablanca (1942)",
-        "filename": "cinecode-casablanca1942remasteredbdripx264-vomit.png",
+        "filename": "cinecode-casablanca_1942_remastered_bdrip_x264_vomit.png",
         "colors": [
             "#303030",
-            "#606060",
-            "#909090"
+            "#606060"
         ],
         "duration_seconds": 6158
     },
     {
+        "title": "Child'S Play (1988)",
+        "filename": "cinecode-child's_play_1988_720p_bluray_x264_yts_ag.png",
+        "colors": [
+            "#303030",
+            "#786060",
+            "#180000",
+            "#C06018",
+            "#9090A8"
+        ],
+        "duration_seconds": 5250
+    },
+    {
         "title": "Children Of Men (2006)",
-        "filename": "cinecode-childrenofmen20061080pbrripx264bokutoxyify.png",
+        "filename": "cinecode-children_of_men_2006_1080p_brrip_x264_bokutox_yify.png",
         "colors": [
             "#303030",
             "#606048",
-            "#A89048",
-            "#909090",
+            "#909060",
             "#1830D8"
         ],
         "duration_seconds": 6554
     },
     {
-        "title": "Childs Play (1988)",
-        "filename": "cinecode-childsplay1988720pblurayx264-ytsag.png",
+        "title": "Cinderella (1950)",
+        "filename": "cinecode-1950_cinderella.png",
         "colors": [
-            "#303030",
-            "#786060",
-            "#A89090"
+            "#606060",
+            "#303048",
+            "#909090",
+            "#000018",
+            "#784818"
         ],
-        "duration_seconds": 5250
+        "duration_seconds": 4505
     },
     {
         "title": "Citizen Kane (1941)",
@@ -378,15 +561,51 @@
     },
     {
         "title": "City Of God (2002)",
-        "filename": "cinecode-cityofgod20021080pblurayx264anoxmous_.png",
+        "filename": "cinecode-city_of_god_2002_1080p_bluray_x264_anoxmous.png",
         "colors": [
-            "#181818",
-            "#484830",
-            "#486078",
-            "#907860",
-            "#C0A890"
+            "#303030",
+            "#606048",
+            "#606090",
+            "#909090",
+            "#909048"
         ],
         "duration_seconds": 7767
+    },
+    {
+        "title": "Coco (2017)",
+        "filename": "cinecode-coco_2017_720p_bluray_x264_yts_ag.png",
+        "colors": [
+            "#303030",
+            "#783030",
+            "#786060",
+            "#A86030",
+            "#304878"
+        ],
+        "duration_seconds": 6302
+    },
+    {
+        "title": "Darby O'gill and the little people (1959)",
+        "filename": "cinecode-1959_darby_o'gill_and_the_little_people.png",
+        "colors": [
+            "#484830",
+            "#181818",
+            "#787878",
+            "#6000C0",
+            "#004848"
+        ],
+        "duration_seconds": 5237
+    },
+    {
+        "title": "Darjeeling Limited",
+        "filename": "cinecode-darjeeling_limited.png",
+        "colors": [
+            "#604830",
+            "#907848",
+            "#181818",
+            "#306078",
+            "#C0A890"
+        ],
+        "duration_seconds": 5506
     },
     {
         "title": "Das Leben Der Anderen (2006)",
@@ -394,13 +613,35 @@
         "colors": [
             "#303018",
             "#606060",
-            "#909078"
+            "#909078",
+            "#3030FF"
         ],
         "duration_seconds": 8255
     },
     {
+        "title": "Dead Man Walking (1995)",
+        "filename": "cinecode-dead_man_walking_1995_720p_bluray_x264_yts_ag.png",
+        "colors": [
+            "#604848",
+            "#181818",
+            "#787878",
+            "#A8A8A8"
+        ],
+        "duration_seconds": 7357
+    },
+    {
+        "title": "Dead Poets Society",
+        "filename": "cinecode-dead_poets_society.png",
+        "colors": [
+            "#483030",
+            "#606060",
+            "#001818"
+        ],
+        "duration_seconds": 7808
+    },
+    {
         "title": "Death Proof (2007)",
-        "filename": "cinecode-deathproof20071080pblurayx264yify.png",
+        "filename": "cinecode-death_proof_2007_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -410,30 +651,38 @@
         "duration_seconds": 6824
     },
     {
-        "title": "Defendingyourlife (1991)",
-        "filename": "cinecode-defendingyourlife1991720pmirsad.png",
+        "title": "Defending Your Life (1991)",
+        "filename": "cinecode-defending_your_life_1991_720p_mirsad.png",
         "colors": [
             "#303030",
             "#606060",
-            "#90A8A8"
+            "#909090"
         ],
         "duration_seconds": 6673
     },
     {
-        "title": "Der amerikanische freund (1978)",
-        "filename": "cinecode-deramerikanischefreund1978dvdripxvidac3.png",
+        "title": "Deleted Scenes",
+        "filename": "cinecode-deleted_scenes_sujaidr.png",
+        "colors": [
+            "#181818",
+            "#304848",
+            "#487878"
+        ],
+        "duration_seconds": 724
+    },
+    {
+        "title": "Der Amerikanische Freund (1978)",
+        "filename": "cinecode-der_amerikanische_freund_1978_dvdrip_xvid_ac3.png",
         "colors": [
             "#303018",
             "#606060",
-            "#783018",
-            "#A8A890",
-            "#A890D8"
+            "#7890C0"
         ],
         "duration_seconds": 7230
     },
     {
         "title": "Django Unchained (2012)",
-        "filename": "cinecode-djangounchained20121080pblurayx264yify.png",
+        "filename": "cinecode-django_unchained_2012_1080p_bluray_x264_yify.png",
         "colors": [
             "#301818",
             "#604848",
@@ -444,53 +693,67 @@
     },
     {
         "title": "Dog Day Afternoon (1975)",
-        "filename": "cinecode-dog_day_afternoon_1975true1080pblurayx264__nvee.png",
+        "filename": "cinecode-dog_day_afternoon_1975_true_1080p_bluray_x264_nvee.png",
         "colors": [
             "#303030",
             "#606048",
             "#907878",
-            "#304878"
+            "#C09030",
+            "#A8A8A8"
         ],
         "duration_seconds": 7479
     },
     {
         "title": "Donnie Darko Directors Cut (2001)",
-        "filename": "cinecode-donniedarkodirectorscut20011080pbrripx264yify.png",
+        "filename": "cinecode-donnie_darko_directors_cut_2001_1080p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
-            "#A8A8A8",
-            "#D8D8D8",
-            "#909060"
+            "#A89078",
+            "#C0A8D8",
+            "#D8F0F0"
         ],
         "duration_seconds": 8031
     },
     {
+        "title": "Ducktales the treasure of the lost lamp (1990)",
+        "filename": "cinecode-1990_ducktales_the_movie_treasure_of_the_lost_lamp.png",
+        "colors": [
+            "#604848",
+            "#907860",
+            "#181818",
+            "#607890",
+            "#A8C0A8"
+        ],
+        "duration_seconds": 4430
+    },
+    {
         "title": "Eat Pray Love Muxed",
-        "filename": "cinecode-eat_pray_love-muxed.png",
+        "filename": "cinecode-eat_pray_love_muxed.png",
         "colors": [
             "#301818",
             "#604830",
-            "#787860",
-            "#F0D8D8"
+            "#909090",
+            "#F0D8D8",
+            "#907848"
         ],
         "duration_seconds": 8739
     },
     {
         "title": "Elysium (2013)",
-        "filename": "cinecode-elysium20131080pblurayx264yify.png",
+        "filename": "cinecode-elysium_2013_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
             "#909090",
             "#A8C0C0",
-            "#307890"
+            "#F0F0F0"
         ],
         "duration_seconds": 6575
     },
     {
         "title": "Empire Of The Sun (1987)",
-        "filename": "cinecode-empireofthesun1987720pblurayx264yify.png",
+        "filename": "cinecode-empire_of_the_sun_1987_720p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -502,7 +765,7 @@
     },
     {
         "title": "Eraserhead (1977)",
-        "filename": "cinecode-eraserhead1977720pblurayx264yify.png",
+        "filename": "cinecode-eraserhead_1977_720p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -513,7 +776,7 @@
     },
     {
         "title": "Eternal Sunshine Of The Spotless Mind (2004)",
-        "filename": "cinecode-eternalsunshineofthespotlessmind20041080pblurayx264anoxmous_.png",
+        "filename": "cinecode-eternal_sunshine_of_the_spotless_mind_2004_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#181818",
             "#484848",
@@ -524,20 +787,31 @@
         "duration_seconds": 6472
     },
     {
+        "title": "Everything",
+        "filename": "cinecode-everything.png",
+        "colors": [
+            "#303018",
+            "#786030",
+            "#486060",
+            "#003048",
+            "#789078"
+        ],
+        "duration_seconds": 7406
+    },
+    {
         "title": "Everything Everywhere All At Once (2022)",
-        "filename": "cinecode-everythingeverywhereallatonce2022720pblurayx264aac-ytsmx.png",
+        "filename": "cinecode-everything_everywhere_all_at_once_2022_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#181818",
             "#606048",
             "#787890",
-            "#184860",
-            "#A81818"
+            "#A8A878"
         ],
         "duration_seconds": 8359
     },
     {
         "title": "Ex Machina (2015)",
-        "filename": "cinecode-exmachina20151080pblurayx264yify.png",
+        "filename": "cinecode-ex_machina_2015_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606048",
@@ -548,8 +822,8 @@
         "duration_seconds": 6480
     },
     {
-        "title": "Fahrenheit 911 (2004)",
-        "filename": "cinecode-fahrenheit_9112004_michael_moore.png",
+        "title": "Fahrenheit 9 11 (2004)",
+        "filename": "cinecode-fahrenheit_9_11_2004_michael_moore.png",
         "colors": [
             "#604848",
             "#787878",
@@ -560,7 +834,7 @@
     },
     {
         "title": "Fallen Angels (1995)",
-        "filename": "cinecode-fallenangels1995bluray720px264dts-.png",
+        "filename": "cinecode-fallen_angels_1995_bluray_720p_x264_dts.png",
         "colors": [
             "#181818",
             "#484830",
@@ -571,8 +845,20 @@
         "duration_seconds": 5940
     },
     {
+        "title": "Fantasia (2000)",
+        "filename": "cinecode-1999_fantasia_2000.png",
+        "colors": [
+            "#183030",
+            "#486060",
+            "#180000",
+            "#003078",
+            "#604818"
+        ],
+        "duration_seconds": 4471
+    },
+    {
         "title": "Fences (2016)",
-        "filename": "cinecode-fences2016720pbrripx264aac-etrg.png",
+        "filename": "cinecode-fences_2016_720p_brrip_x264_aac_etrg.png",
         "colors": [
             "#483030",
             "#786048",
@@ -582,7 +868,7 @@
     },
     {
         "title": "Fight Club (1999)",
-        "filename": "cinecode-fightclub1999repack1080pblurayx264aac51-ytsmx.png",
+        "filename": "cinecode-fight_club_1999_repack_1080p_bluray_x264_aac5_1_yts_mx.png",
         "colors": [
             "#181818",
             "#484848",
@@ -593,43 +879,43 @@
     },
     {
         "title": "Final (2023)",
-        "filename": "cinecode-final_202314013-003.png",
+        "filename": "cinecode-final_202314013_003.png",
         "colors": [
             "#606060",
-            "#909090",
+            "#A89090",
             "#303030",
             "#F0F0F0",
-            "#D8C0A8"
+            "#C0C0C0"
         ],
         "duration_seconds": 1504
     },
     {
-        "title": "Final Cut Ladies And Gentlemen (2012)",
-        "filename": "cinecode-final_cut__ladies_and_gentlemen_2012_720x576_h264_25000_fps.png",
+        "title": "Final Cut \u2013 Ladies And Gentlemen (2012)",
+        "filename": "cinecode-final_cut_\u2013_ladies_and_gentlemen_2012_720x576_h_264_25_000_fps.png",
         "colors": [
             "#303030",
             "#606060",
             "#909078",
-            "#784818",
-            "#180000"
+            "#180000",
+            "#784818"
         ],
         "duration_seconds": 5147
     },
     {
         "title": "Finald (2023)",
-        "filename": "cinecode-finald_202314013-001.png",
+        "filename": "cinecode-finald_202314013_001.png",
         "colors": [
             "#606060",
-            "#A89090",
-            "#181818",
+            "#909090",
+            "#303030",
             "#F0F0F0",
-            "#D8C090"
+            "#C0C0A8"
         ],
         "duration_seconds": 1460
     },
     {
         "title": "Five Easy Pieces (1970)",
-        "filename": "cinecode-fiveeasypieces19701080pblurayx264anoxmous_.png",
+        "filename": "cinecode-five_easy_pieces_1970_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#604848",
             "#301818",
@@ -638,8 +924,8 @@
         "duration_seconds": 5904
     },
     {
-        "title": "Forrest Gump With English Subtitles Watch Online Ororotv",
-        "filename": "cinecode-forrest_gump_with_english_subtitles_watch_online___ororotv.png",
+        "title": "Forrest Gump With English Subtitles Watch Online Ororo Tv",
+        "filename": "cinecode-forrest_gump_with_english_subtitles_watch_online_ororo_tv.png",
         "colors": [
             "#303030",
             "#606060",
@@ -649,7 +935,7 @@
     },
     {
         "title": "Fruitvale Station (2013)",
-        "filename": "cinecode-fruitvalestation20131080pblurayx264yify.png",
+        "filename": "cinecode-fruitvale_station_2013_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -658,8 +944,20 @@
         "duration_seconds": 5101
     },
     {
+        "title": "Gladiator",
+        "filename": "cinecode-gladiator.png",
+        "colors": [
+            "#301818",
+            "#604830",
+            "#304860",
+            "#A89078",
+            "#607878"
+        ],
+        "duration_seconds": 10257
+    },
+    {
         "title": "Good Will Hunting (1997)",
-        "filename": "cinecode-goodwillhunting19971080pbrripx264yify.png",
+        "filename": "cinecode-good_will_hunting_1997_1080p_brrip_x264_yify.png",
         "colors": [
             "#483030",
             "#606060",
@@ -670,7 +968,7 @@
     },
     {
         "title": "Goodfellas (1990)",
-        "filename": "cinecode-goodfellas19901080pblurayx264-ytsam.png",
+        "filename": "cinecode-goodfellas_1990_1080p_bluray_x264_yts_am.png",
         "colors": [
             "#181818",
             "#484848",
@@ -681,18 +979,40 @@
     },
     {
         "title": "Her (2013)",
-        "filename": "cinecode-her2013720pblurayx264yify.png",
+        "filename": "cinecode-her_2013_720p_bluray_x264_yify.png",
         "colors": [
             "#181818",
-            "#786048",
-            "#A89078",
-            "#184848"
+            "#906048",
+            "#484830",
+            "#A89078"
         ],
         "duration_seconds": 7550
     },
     {
-        "title": "Hidinginplainsight",
-        "filename": "cinecode-hidinginplainsightsujaidr.png",
+        "title": "Herbie Rides Again (1974)",
+        "filename": "cinecode-1974_herbie_rides_again.png",
+        "colors": [
+            "#604848",
+            "#181818",
+            "#787878"
+        ],
+        "duration_seconds": 5093
+    },
+    {
+        "title": "Hercules (1997)",
+        "filename": "cinecode-1997_hercules.png",
+        "colors": [
+            "#181818",
+            "#603018",
+            "#303060",
+            "#904848",
+            "#607878"
+        ],
+        "duration_seconds": 5569
+    },
+    {
+        "title": "Hiding In Plain Sight",
+        "filename": "cinecode-hiding_in_plain_sight_sujaidr.png",
         "colors": [
             "#303030",
             "#606060",
@@ -702,8 +1022,8 @@
         "duration_seconds": 838
     },
     {
-        "title": "Hiroshimamonamour (1959)",
-        "filename": "cinecode-hiroshimamonamour1959720pblurayx264aac-ytsmx.png",
+        "title": "Hiroshima Mon Amour (1959)",
+        "filename": "cinecode-hiroshima_mon_amour_1959_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#303030",
             "#606060",
@@ -713,8 +1033,8 @@
         "duration_seconds": 5429
     },
     {
-        "title": "His Girl Friday Comedy (1940)",
-        "filename": "cinecode-his_girl_friday__comedy_1940__cary_grant_rosalind_russell__ralph_bellamy__hd.png",
+        "title": "His Girl Friday   Comedy (1940)",
+        "filename": "cinecode-his_girl_friday_comedy_1940_cary_grant,_rosalind_russell_&_ralph_bellamy_hd.png",
         "colors": [
             "#303030",
             "#606060",
@@ -724,7 +1044,7 @@
     },
     {
         "title": "Holmes And Watson (2018)",
-        "filename": "cinecode-holmesandwatson2018720pweb-dlxvidac3-fgt.png",
+        "filename": "cinecode-holmes_and_watson_2018_720p_web_dl_xvid_ac3_fgt.png",
         "colors": [
             "#303018",
             "#604848",
@@ -738,17 +1058,17 @@
         "title": "Home",
         "filename": "cinecode-home.png",
         "colors": [
-            "#604830",
-            "#606078",
-            "#181818",
+            "#606060",
+            "#303030",
             "#909090",
-            "#907848"
+            "#906030",
+            "#000018"
         ],
         "duration_seconds": 5597
     },
     {
         "title": "I Origins (2014)",
-        "filename": "cinecode-iorigins2014720pblurayx264yify.png",
+        "filename": "cinecode-i_origins_2014_720p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#604848",
@@ -759,8 +1079,19 @@
         "duration_seconds": 6454
     },
     {
+        "title": "In Bruges (2008)",
+        "filename": "cinecode-in_bruges_2008_720p_brrip_x264_yify.png",
+        "colors": [
+            "#303030",
+            "#606048",
+            "#909078",
+            "#C0D8D8"
+        ],
+        "duration_seconds": 6409
+    },
+    {
         "title": "In The Mood For Love (2000)",
-        "filename": "cinecode-inthemoodforlove2000720pblurayx264-ytsam.png",
+        "filename": "cinecode-in_the_mood_for_love_2000_720p_bluray_x264_yts_am.png",
         "colors": [
             "#301818",
             "#A80000",
@@ -783,19 +1114,19 @@
     },
     {
         "title": "Inception (2010)",
-        "filename": "cinecode-inception20102160p4kblurayx26510bitaac51-ytsmx.png",
+        "filename": "cinecode-inception_2010_2160p_4k_bluray_x265_10bit_aac5_1_yts_mx.png",
         "colors": [
-            "#181818",
+            "#301818",
             "#484848",
-            "#909090",
-            "#C0C0C0",
-            "#787848"
+            "#787860",
+            "#90A890",
+            "#A84800"
         ],
         "duration_seconds": 8888
     },
     {
         "title": "Inglourious Bastards (2009)",
-        "filename": "cinecode-inglourious_bastards20091080pbrripx264yify.png",
+        "filename": "cinecode-inglourious_bastards_2009_1080p_brrip_x264_yify.png",
         "colors": [
             "#301818",
             "#484848",
@@ -819,7 +1150,7 @@
     },
     {
         "title": "Isle Of Dogs (2018)",
-        "filename": "cinecode-isleofdogs20181080pblurayx264-ytsam.png",
+        "filename": "cinecode-isle_of_dogs_2018_1080p_bluray_x264_yts_am.png",
         "colors": [
             "#181818",
             "#604830",
@@ -831,7 +1162,7 @@
     },
     {
         "title": "Its A Wonderful Life (1946)",
-        "filename": "cinecode-itsawonderfullife1946blackwhite720pblurayx264anoxmous_.png",
+        "filename": "cinecode-its_a_wonderful_life_1946_black_&_white_720p_bluray_x264_anoxmous.png",
         "colors": [
             "#303030",
             "#606060",
@@ -840,8 +1171,20 @@
         "duration_seconds": 7838
     },
     {
+        "title": "James and the giant peach (1996)",
+        "filename": "cinecode-1996_james_and_the_giant_peach.png",
+        "colors": [
+            "#181818",
+            "#484860",
+            "#906048",
+            "#603018",
+            "#786090"
+        ],
+        "duration_seconds": 4763
+    },
+    {
         "title": "Jarhead (2005)",
-        "filename": "cinecode-jarhead2005720pbrripx264yify.png",
+        "filename": "cinecode-jarhead_2005_720p_brrip_x264_yify.png",
         "colors": [
             "#909078",
             "#181818",
@@ -853,11 +1196,11 @@
     },
     {
         "title": "John Wick (2014)",
-        "filename": "cinecode-johnwick2014720pblurayx264-ytsag.png",
+        "filename": "cinecode-john_wick_2014_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#181818",
             "#304848",
-            "#786030",
+            "#A8D8F0",
             "#607878",
             "#004878"
         ],
@@ -865,66 +1208,66 @@
     },
     {
         "title": "John Wick Chapter 2 (2017)",
-        "filename": "cinecode-johnwickchapter22017720pblurayx264-ytsag.png",
+        "filename": "cinecode-john_wick_chapter_2_2017_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#181818",
             "#304848",
             "#487878",
-            "#A8C0C0",
-            "#784818"
+            "#604818",
+            "#78A8A8"
         ],
         "duration_seconds": 7342
     },
     {
+        "title": "John Wick Chapter 3 Parabellum (2019)",
+        "filename": "cinecode-john_wick_chapter_3_parabellum_2019_1080p_bluray_x264_yts_lt.png",
+        "colors": [
+            "#181818",
+            "#304848",
+            "#603018",
+            "#6090A8",
+            "#786060"
+        ],
+        "duration_seconds": 7875
+    },
+    {
         "title": "Johnny English (2003)",
-        "filename": "cinecode-johnnyenglish2003720pbrrip264yify.png",
+        "filename": "cinecode-johnny_english_2003_720p_brrip_264_yify.png",
         "colors": [
             "#483030",
             "#606060",
-            "#909090",
             "#C0C0C0",
-            "#1860A8"
+            "#909090",
+            "#300000"
         ],
         "duration_seconds": 5245
     },
     {
         "title": "Johnny English Reborn (2011)",
-        "filename": "cinecode-johnnyenglishreborn2011720pbrripx264.png",
+        "filename": "cinecode-johnny_english_reborn_2011_720p_brrip_x264.png",
         "colors": [
             "#303030",
             "#606048",
             "#909078",
-            "#F0D8D8",
-            "#A8C0A8"
+            "#C0C0A8"
         ],
         "duration_seconds": 6081
     },
     {
         "title": "Johnny English Strikes Again (2018)",
-        "filename": "cinecode-johnnyenglishstrikesagain2018720pblurayx264-ytsam.png",
+        "filename": "cinecode-johnny_english_strikes_again_2018_720p_bluray_x264_yts_am.png",
         "colors": [
             "#303030",
             "#606060",
             "#909090",
-            "#184878",
+            "#183078",
             "#000018"
         ],
         "duration_seconds": 5313
     },
     {
-        "title": "Johnwickchapter3 Parabellum (2019)",
-        "filename": "cinecode-johnwickchapter3-parabellum20191080pblurayx264-ytslt.png",
-        "colors": [
-            "#181818",
-            "#304848",
-            "#786048",
-            "#603018"
-        ],
-        "duration_seconds": 7875
-    },
-    {
         "title": "Jojo Rabbit (2019)",
-        "filename": "cinecode-jojorabbit20191080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-jojo_rabbit_2019_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#303018",
             "#606030",
@@ -936,7 +1279,7 @@
     },
     {
         "title": "Joker (2019)",
-        "filename": "cinecode-joker2019hc1080phdripx264ac3-evo.png",
+        "filename": "cinecode-joker_2019_hc_1080p_hdrip_x264_ac3_evo.png",
         "colors": [
             "#181818",
             "#484830",
@@ -947,7 +1290,7 @@
     },
     {
         "title": "Kill Bill Vol 1 (2003)",
-        "filename": "cinecode-killbillvol120031080pbrripx264yify.png",
+        "filename": "cinecode-kill_bill_vol_1_2003_1080p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -958,20 +1301,8 @@
         "duration_seconds": 6643
     },
     {
-        "title": "Kill Bill Vol 2 (2004)",
-        "filename": "cinecode-wwwusabitcom__-_killbillvol22004bluray1080p51chx264ganool.png",
-        "colors": [
-            "#181818",
-            "#484848",
-            "#787878",
-            "#A8A8A8",
-            "#600000"
-        ],
-        "duration_seconds": 8217
-    },
-    {
-        "title": "Knivesout (2019)",
-        "filename": "cinecode-knivesout2019720pblurayx264aac-ytsmx.png",
+        "title": "Knives Out (2019)",
+        "filename": "cinecode-knives_out_2019_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#303030",
             "#606060",
@@ -981,7 +1312,7 @@
     },
     {
         "title": "Knock Knock (2015)",
-        "filename": "cinecode-knockknock2015720pblurayx264yify.png",
+        "filename": "cinecode-knock_knock_2015_720p_bluray_x264_yify.png",
         "colors": [
             "#303018",
             "#606048",
@@ -991,7 +1322,7 @@
     },
     {
         "title": "La Dolce Vita (1960)",
-        "filename": "cinecode-ladolcevita1960720pbrrip14gbmkvcagecom.png",
+        "filename": "cinecode-la_dolce_vita_1960_720p_brrip_1_4gb_mkvcage_com.png",
         "colors": [
             "#484848",
             "#787878",
@@ -1002,7 +1333,7 @@
     },
     {
         "title": "La La Land (2016)",
-        "filename": "cinecode-lalaland2016dvdscrxvidac3hqhive-cm8.png",
+        "filename": "cinecode-la_la_land_2016_dvdscr_xvid_ac3_hq_hive_cm8.png",
         "colors": [
             "#181818",
             "#484848",
@@ -1013,30 +1344,42 @@
         "duration_seconds": 7665
     },
     {
+        "title": "Lady and the Tramp (1955)",
+        "filename": "cinecode-1955_lady_and_the_tramp.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909078",
+            "#183078"
+        ],
+        "duration_seconds": 4594
+    },
+    {
         "title": "Lady Bird (2017)",
-        "filename": "cinecode-ladybird2017720pbrrip900mbmkvcage.png",
+        "filename": "cinecode-lady_bird_2017_720p_brrip_900mb_mkvcage.png",
         "colors": [
             "#484848",
-            "#301818",
+            "#181800",
             "#787860",
-            "#004848"
+            "#004848",
+            "#C0C0C0"
         ],
         "duration_seconds": 5644
     },
     {
         "title": "Laila Majnu (2018)",
-        "filename": "cinecode-lailamajnu2018720phdripx264aac-123mkvcool.png",
+        "filename": "cinecode-laila_majnu_2018_720p_hdrip_x264_aac_123mkv_cool.png",
         "colors": [
             "#606060",
             "#483030",
             "#909090",
-            "#181800",
-            "#A8C0D8"
+            "#A8C0C0",
+            "#001818"
         ],
         "duration_seconds": 7926
     },
     {
-        "title": "Land Of Silence And Darkness Land Des Schweigens Und Der Dunkelheit (1971)",
+        "title": "Land Of Silence And Darkness  Land Des Schweigens Und Der Dunkelheit (1971)",
         "filename": "cinecode-land_of_silence_and_darkness_land_des_schweigens_und_der_dunkelheit_1971.png",
         "colors": [
             "#484848",
@@ -1048,7 +1391,7 @@
     },
     {
         "title": "Last Christmas (2019)",
-        "filename": "cinecode-lastchristmas20191080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-last_christmas_2019_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#483030",
             "#606060",
@@ -1060,13 +1403,13 @@
     },
     {
         "title": "Leon The Professional (1994)",
-        "filename": "cinecode-leontheprofessional1994dc720pbrripx264-tv21org.png",
+        "filename": "cinecode-leon_the_professional_1994_dc_720p_brrip_x264_tv21_org.png",
         "colors": [
             "#604830",
             "#301818",
             "#907860",
-            "#303078",
-            "#C0C0C0"
+            "#A8A890",
+            "#7848A8"
         ],
         "duration_seconds": 7973
     },
@@ -1075,16 +1418,16 @@
         "filename": "cinecode-life_of_pi.png",
         "colors": [
             "#606048",
-            "#181818",
+            "#303030",
             "#A8A890",
-            "#186060",
-            "#487890"
+            "#D8D8C0",
+            "#186060"
         ],
         "duration_seconds": 7619
     },
     {
         "title": "Little Women (2019)",
-        "filename": "cinecode-littlewomen20191080pwebripx264-rarbg.png",
+        "filename": "cinecode-little_women_2019_1080p_webrip_x264_rarbg.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1095,18 +1438,19 @@
     },
     {
         "title": "Lola Rennt (1998)",
-        "filename": "cinecode-lolarennt1998bluray1080p51chx264ganoolph.png",
+        "filename": "cinecode-lola_rennt_1998_bluray_1080p_5_1ch_x264_ganool_ph.png",
         "colors": [
-            "#484830",
-            "#787860",
-            "#300000",
-            "#A8A890"
+            "#606048",
+            "#303018",
+            "#909078",
+            "#A86048",
+            "#600000"
         ],
         "duration_seconds": 4790
     },
     {
         "title": "Lolita (1997)",
-        "filename": "cinecode-lolita1997720pblurayx264yify.png",
+        "filename": "cinecode-lolita_1997_720p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1117,8 +1461,8 @@
         "duration_seconds": 8260
     },
     {
-        "title": "Longdaysjourneyintonight (2018)",
-        "filename": "cinecode-longdaysjourneyintonight2018720pblurayx264aac-ytsmx.png",
+        "title": "Long Day'S Journey Into Night (2018)",
+        "filename": "cinecode-long_day's_journey_into_night_2018_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#181818",
             "#304848"
@@ -1127,7 +1471,7 @@
     },
     {
         "title": "Lost In Translation (2003)",
-        "filename": "cinecode-lostintranslation2003bluray720px264yify.png",
+        "filename": "cinecode-lost_in_translation_2003_bluray_720p_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -1137,13 +1481,13 @@
         "duration_seconds": 6106
     },
     {
-        "title": "Lovepersquarefoot (2018)",
-        "filename": "cinecode-lovepersquarefoot2018720pwebripx264-123mkvcom.png",
+        "title": "Love Per Square Foot (2018)",
+        "filename": "cinecode-love_per_square_foot_2018_720p_webrip_x264_123mkv_com.png",
         "colors": [
             "#606060",
             "#483030",
             "#909090",
-            "#C0C0C0",
+            "#A8C0C0",
             "#481878"
         ],
         "duration_seconds": 8003
@@ -1155,14 +1499,14 @@
             "#786060",
             "#909090",
             "#A8C0C0",
-            "#483030",
+            "#483048",
             "#306090"
         ],
         "duration_seconds": 1230
     },
     {
         "title": "Manchester By The Sea (2016)",
-        "filename": "cinecode-manchesterbythesea2016dvdscrxvidac3hqhive-cm8.png",
+        "filename": "cinecode-manchester_by_the_sea_2016_dvdscr_xvid_ac3_hq_hive_cm8.png",
         "colors": [
             "#301818",
             "#484848",
@@ -1173,7 +1517,7 @@
     },
     {
         "title": "Manhattan (1979)",
-        "filename": "cinecode-manhattan_1979_720p_bluray_x254-vsenc.png",
+        "filename": "cinecode-manhattan_1979_720p_bluray_x254_vsenc.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1182,8 +1526,8 @@
         "duration_seconds": 5541
     },
     {
-        "title": "Manifestingthemachinist",
-        "filename": "cinecode-manifestingthemachinistsujaidr.png",
+        "title": "Manifesting The Machinist",
+        "filename": "cinecode-manifesting_the_machinist_sujaidr.png",
         "colors": [
             "#303030",
             "#607860",
@@ -1194,66 +1538,92 @@
         "duration_seconds": 1379
     },
     {
+        "title": "Mary Poppins (1964)",
+        "filename": "cinecode-1964_mary_poppins.png",
+        "colors": [
+            "#483030",
+            "#606060",
+            "#181800",
+            "#A87848",
+            "#004848"
+        ],
+        "duration_seconds": 8354
+    },
+    {
         "title": "Matilda (1996)",
         "filename": "cinecode-matilda_1996.png",
         "colors": [
             "#483030",
             "#606060",
+            "#001818",
             "#A80018",
-            "#181800",
-            "#D8A818"
+            "#A89090"
         ],
         "duration_seconds": 5888
     },
     {
         "title": "Matrix",
-        "filename": "cinecode-01matrix.png",
+        "filename": "cinecode-01_matrix.png",
         "colors": [
             "#181818",
-            "#484830",
-            "#607860",
+            "#486048",
+            "#789060",
             "#C0C0C0",
-            "#90A890"
+            "#F0F0F0"
         ],
         "duration_seconds": 8177
     },
     {
         "title": "Matrix Reloaded",
-        "filename": "cinecode-02matrix_reloaded.png",
+        "filename": "cinecode-02_matrix_reloaded.png",
         "colors": [
             "#181818",
             "#484830",
             "#607860",
-            "#90A890",
-            "#187818"
+            "#909090",
+            "#006018"
         ],
         "duration_seconds": 8295
     },
     {
         "title": "Matrix Revolutions",
-        "filename": "cinecode-03matrix_revolutions.png",
+        "filename": "cinecode-03_matrix_revolutions.png",
         "colors": [
             "#181818",
             "#484830",
             "#789078",
-            "#C0C0C0",
-            "#486090"
+            "#486078",
+            "#D8A848"
         ],
         "duration_seconds": 7756
     },
     {
         "title": "Meet Joe Black (1998)",
-        "filename": "cinecode-meetjoeblack1998720pblurayh264aac-rarbg.png",
+        "filename": "cinecode-meet_joe_black_1998_720p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#483030",
             "#606060",
-            "#909078"
+            "#909090",
+            "#181800",
+            "#001860"
         ],
         "duration_seconds": 10833
     },
     {
+        "title": "Meet The Robinsons (2007)",
+        "filename": "cinecode-meet_the_robinsons_2007.png",
+        "colors": [
+            "#907860",
+            "#181818",
+            "#604848",
+            "#183060",
+            "#90A8C0"
+        ],
+        "duration_seconds": 5670
+    },
+    {
         "title": "Melancholia",
-        "filename": "cinecode-melancholia720pbrripx264yify.png",
+        "filename": "cinecode-melancholia_720p_brrip_x264_yify.png",
         "colors": [
             "#181818",
             "#604830",
@@ -1265,7 +1635,7 @@
     },
     {
         "title": "Memento (2000)",
-        "filename": "cinecode-memento20001080pblurayx264yify.png",
+        "filename": "cinecode-memento_2000_1080p_bluray_x264_yify.png",
         "colors": [
             "#484848",
             "#181818",
@@ -1275,18 +1645,17 @@
     },
     {
         "title": "Metropolis (1927)",
-        "filename": "cinecode-metropolis19271080pblurayx264-ytsam.png",
+        "filename": "cinecode-metropolis_1927_1080p_bluray_x264_yts_am.png",
         "colors": [
             "#484848",
             "#181818",
-            "#787878",
-            "#A8A8A8"
+            "#787878"
         ],
         "duration_seconds": 8907
     },
     {
         "title": "Midnight In Paris (2011)",
-        "filename": "cinecode-midnightinparis2011720pbrripx264.png",
+        "filename": "cinecode-midnight_in_paris_2011_720p_brrip_x264.png",
         "colors": [
             "#301800",
             "#604830",
@@ -1296,19 +1665,29 @@
     },
     {
         "title": "Minari (2020)",
-        "filename": "cinecode-minari2020720pblurayx264aac-ytsmx.png",
+        "filename": "cinecode-minari_2020_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#483030",
-            "#606060",
-            "#909078",
+            "#787878",
             "#001818",
-            "#906030"
+            "#A86030",
+            "#A8A8A8"
         ],
         "duration_seconds": 6912
     },
     {
+        "title": "Mood Indigo (2013)",
+        "filename": "cinecode-mood_indigo_2013_720p_bluray_x264_aac_yts_mx.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909090"
+        ],
+        "duration_seconds": 7846
+    },
+    {
         "title": "Moonlight (2016)",
-        "filename": "cinecode-moonlight20161080pblurayx264-ytsag.png",
+        "filename": "cinecode-moonlight_2016_1080p_bluray_x264_yts_ag.png",
         "colors": [
             "#181818",
             "#484830",
@@ -1319,28 +1698,16 @@
         "duration_seconds": 6656
     },
     {
-        "title": "Mother (2017)",
-        "filename": "cinecode-mother20171080pbrrip6chsample.png",
+        "title": "Mother! (2017)",
+        "filename": "cinecode-mother!_2017_1080p_brrip_6ch_sample.png",
         "colors": [
             "#303018"
         ],
         "duration_seconds": 60
     },
     {
-        "title": "Mother (2017)",
-        "filename": "cinecode-mother20171080pbrrip6chx265hevc-psa.png",
-        "colors": [
-            "#181818",
-            "#484830",
-            "#787878",
-            "#C0A890",
-            "#A87848"
-        ],
-        "duration_seconds": 7271
-    },
-    {
-        "title": "Mrnobody (2009)",
-        "filename": "cinecode-mrnobody2009extended720pblurayh264aac-rarbg.png",
+        "title": "Mr Nobody (2009)",
+        "filename": "cinecode-mr_nobody_2009_extended_720p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#181818",
             "#606060",
@@ -1352,7 +1719,7 @@
     },
     {
         "title": "Mulholland Drive (2001)",
-        "filename": "cinecode-mulholland_drive_2001_720p__rips4ucom.png",
+        "filename": "cinecode-mulholland_drive_2001_720p_~_rips4u_com.png",
         "colors": [
             "#301818",
             "#604848",
@@ -1363,32 +1730,43 @@
         "duration_seconds": 8787
     },
     {
-        "title": "My Life as a Turkey",
-        "filename": "cinecode-mylifeasaturkey.png",
+        "title": "My friends and Pooh Christmas Movie (2007)",
+        "filename": "cinecode-2007_my_friends_tigger_and_pooh_super_sleuth_christmas_movie.png",
+        "colors": [
+            "#786048",
+            "#486078",
+            "#303048",
+            "#90A8A8",
+            "#A8D8D8"
+        ],
+        "duration_seconds": 2655
+    },
+    {
+        "title": "My Life As A Turkey",
+        "filename": "cinecode-my_life_as_a_turkey.png",
         "colors": [
             "#606048",
             "#303030",
             "#909060",
-            "#304878",
-            "#607890"
+            "#304878"
         ],
         "duration_seconds": 3526
     },
     {
-        "title": "Nervous Translation",
+        "title": "Nervous Translation Online Screener",
         "filename": "cinecode-nervous_translation_online_screener.png",
         "colors": [
-            "#303030",
-            "#786060",
-            "#000018",
-            "#A89078",
-            "#306090"
+            "#181818",
+            "#484848",
+            "#787878",
+            "#3060A8",
+            "#904848"
         ],
         "duration_seconds": 5426
     },
     {
-        "title": "Nishiddho (2022)",
-        "filename": "cinecode-nishiddhoakaforbidden20221080pcspaceweb-dlaac20h264.png",
+        "title": "Nishiddho Aka Forbidden (2022)",
+        "filename": "cinecode-nishiddho_aka_forbidden_2022_1080p_cspace_web_dl_aac2_0_h264.png",
         "colors": [
             "#484848",
             "#181818",
@@ -1399,7 +1777,7 @@
     },
     {
         "title": "No Country For Old Men (2007)",
-        "filename": "cinecode-nocountryforoldmen20071080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-no_country_for_old_men_2007_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#484830",
             "#787860",
@@ -1410,7 +1788,7 @@
     },
     {
         "title": "No Name On The Bullet (1959)",
-        "filename": "cinecode-nonameonthebullet19591080pblurayx264-ytslt.png",
+        "filename": "cinecode-no_name_on_the_bullet_1959_1080p_bluray_x264_yts_lt.png",
         "colors": [
             "#303030",
             "#606048",
@@ -1419,42 +1797,75 @@
         "duration_seconds": 4625
     },
     {
+        "title": "Noah (2014)",
+        "filename": "cinecode-noah_2014_720p_bdrip_tamil_+_hindi_+_eng_x264_1_1gb_esubs.png",
+        "colors": [
+            "#181818",
+            "#484830",
+            "#787860"
+        ],
+        "duration_seconds": 8273
+    },
+    {
         "title": "Notting Hill (1999)",
-        "filename": "cinecode-nottinghill1999720pbrripx264aac-123mkvcool.png",
+        "filename": "cinecode-notting_hill_1999_720p_brrip_x264_aac_123mkv_cool.png",
         "colors": [
             "#484848",
             "#181818",
-            "#787878",
-            "#A8A890"
+            "#787878"
         ],
         "duration_seconds": 7437
     },
     {
-        "title": "Onceuponatimeinthewest (1968)",
-        "filename": "cinecode-onceuponatimeinthewest19681080pblurayx264yify.png",
+        "title": "Old Yeller (1957)",
+        "filename": "cinecode-1957_old_yeller.png",
+        "colors": [
+            "#483030",
+            "#606060",
+            "#181800",
+            "#003060",
+            "#4860A8"
+        ],
+        "duration_seconds": 5035
+    },
+    {
+        "title": "Oliver and company (1988)",
+        "filename": "cinecode-1988_oliver_&_company.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909090",
+            "#FFF0F0",
+            "#186078"
+        ],
+        "duration_seconds": 4233
+    },
+    {
+        "title": "Once Upon A Time In The West (1968)",
+        "filename": "cinecode-once_upon_a_time_in_the_west_1968_1080p_bluray_x264_yify.png",
         "colors": [
             "#301818",
             "#604848",
             "#787878",
-            "#A890A8"
+            "#A8A8A8"
         ],
         "duration_seconds": 9962
     },
     {
         "title": "Oppenheimer (2023)",
-        "filename": "cinecode-oppenheimer20232160p4kblurayx26510bitaac51-ytsmx.png",
+        "filename": "cinecode-oppenheimer_2023_2160p_4k_bluray_x265_10bit_aac5_1_yts_mx.png",
         "colors": [
             "#484830",
             "#181818",
             "#787860",
-            "#C06018",
-            "#A8A890"
+            "#C0C0A8",
+            "#A87830"
         ],
         "duration_seconds": 10822
     },
     {
         "title": "Pain And Glory (2019)",
-        "filename": "cinecode-painandglory2019720pblurayx264-ytslt.png",
+        "filename": "cinecode-pain_and_glory_2019_720p_bluray_x264_yts_lt.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1465,8 +1876,20 @@
         "duration_seconds": 6809
     },
     {
+        "title": "Peter Pan (1953)",
+        "filename": "cinecode-1953_peter_pan.png",
+        "colors": [
+            "#483030",
+            "#606060",
+            "#001818",
+            "#184878",
+            "#909090"
+        ],
+        "duration_seconds": 4462
+    },
+    {
         "title": "Pi (1998)",
-        "filename": "cinecode-pi1998720pblurayx264yify.png",
+        "filename": "cinecode-pi_1998_720p_bluray_x264_yify.png",
         "colors": [
             "#606060",
             "#303030",
@@ -1477,8 +1900,30 @@
         "duration_seconds": 5054
     },
     {
+        "title": "Playtime (1967)",
+        "filename": "cinecode-playtime_1967_1080p_bluray_x264_yts_am.png",
+        "colors": [
+            "#303030",
+            "#486060",
+            "#9090A8"
+        ],
+        "duration_seconds": 7474
+    },
+    {
+        "title": "Pocahontas II (1998)",
+        "filename": "cinecode-1998_pocahontas_ii_journey_to_a_new_world.png",
+        "colors": [
+            "#303030",
+            "#786060",
+            "#909090",
+            "#C0C0C0",
+            "#304878"
+        ],
+        "duration_seconds": 4212
+    },
+    {
         "title": "Psycho (1960)",
-        "filename": "cinecode-psycho19601080pbrripx264yify.png",
+        "filename": "cinecode-psycho_1960_1080p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1488,7 +1933,7 @@
     },
     {
         "title": "Pulp Fiction (1994)",
-        "filename": "cinecode-pulpfiction19941080pbrripx264yify.png",
+        "filename": "cinecode-pulp_fiction_1994_1080p_brrip_x264_yify.png",
         "colors": [
             "#483030",
             "#786060",
@@ -1498,8 +1943,16 @@
         "duration_seconds": 9267
     },
     {
+        "title": "Pyre8Storm",
+        "filename": "cinecode-pyre8storm.png",
+        "colors": [
+            "#181818"
+        ],
+        "duration_seconds": 10
+    },
+    {
         "title": "Raging Bull (1980)",
-        "filename": "cinecode-ragingbull19801080pblurayx264yify.png",
+        "filename": "cinecode-raging_bull_1980_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1508,14 +1961,32 @@
         "duration_seconds": 7742
     },
     {
-        "title": "Rarbgcom",
-        "filename": "cinecode-rarbgcom.png",
-        "colors": [],
-        "duration_seconds": 8
+        "title": "Rango (2009)",
+        "filename": "cinecode-rango_2009_1080p_brrip_x264_yify.png",
+        "colors": [
+            "#303030",
+            "#909090",
+            "#606060",
+            "#C0C0C0",
+            "#F0F0D8"
+        ],
+        "duration_seconds": 6710
+    },
+    {
+        "title": "Recess school (2001)",
+        "filename": "cinecode-2001_recess_schools_out.png",
+        "colors": [
+            "#303030",
+            "#787860",
+            "#A89090",
+            "#C0C0C0",
+            "#483078"
+        ],
+        "duration_seconds": 5003
     },
     {
         "title": "Requiem For A Dream (2000)",
-        "filename": "cinecode-requiemforadream2000dc1080pblurayx264anoxmous_.png",
+        "filename": "cinecode-requiem_for_a_dream_2000_dc_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1525,8 +1996,20 @@
         "duration_seconds": 6093
     },
     {
+        "title": "Robin Hood (1973)",
+        "filename": "cinecode-1973_robin_hood.png",
+        "colors": [
+            "#606060",
+            "#303030",
+            "#909090",
+            "#904830",
+            "#184878"
+        ],
+        "duration_seconds": 4779
+    },
+    {
         "title": "Robin Hood (2018)",
-        "filename": "cinecode-robinhood20181080pwebripx264-ytsam.png",
+        "filename": "cinecode-robin_hood_2018_1080p_webrip_x264_yts_am.png",
         "colors": [
             "#181818",
             "#484848",
@@ -1538,36 +2021,44 @@
     },
     {
         "title": "Rocky (1976)",
-        "filename": "cinecode-rocky1976720pbrripx264yify.png",
+        "filename": "cinecode-rocky_1976_720p_brrip_x264_yify.png",
         "colors": [
             "#301818",
             "#604848",
-            "#6078C0",
-            "#909090"
+            "#909090",
+            "#6090F0"
         ],
         "duration_seconds": 7175
     },
     {
-        "title": "Roger Me 2Xaudio Xvid",
-        "filename": "cinecode-roger__me_2xaudio-xvid-belos.png",
+        "title": "Roger & Me 2Xaudio Xvid",
+        "filename": "cinecode-roger_&_me_2xaudio_xvid_belos.png",
         "colors": [
             "#604848",
             "#787878",
             "#181818",
             "#C07830",
-            "#A8A8A8"
+            "#9090C0"
         ],
         "duration_seconds": 5438
     },
     {
-        "title": "Rosemarysbaby (1968)",
-        "filename": "cinecode-rosemarysbaby19681080pbrripx264yify.png",
+        "title": "Rosemarys Baby (1968)",
+        "filename": "cinecode-rosemarys_baby_1968_1080p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606048",
             "#180000"
         ],
         "duration_seconds": 8218
+    },
+    {
+        "title": "Sample",
+        "filename": "cinecode-sample.png",
+        "colors": [
+            "#484830"
+        ],
+        "duration_seconds": 60
     },
     {
         "title": "Saving Private Ryan",
@@ -1583,7 +2074,7 @@
     },
     {
         "title": "Scarface (1983)",
-        "filename": "cinecode-scarface19831080pbrripx264yify.png",
+        "filename": "cinecode-scarface_1983_1080p_brrip_x264_yify.png",
         "colors": [
             "#483030",
             "#606060",
@@ -1595,12 +2086,12 @@
     },
     {
         "title": "Schindlers List (1993)",
-        "filename": "cinecode-schindlerslist19931080pblurayx264anoxmous_.png",
+        "filename": "cinecode-schindlers_list_1993_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#303030",
             "#606060",
             "#909090",
-            "#C0C0C0"
+            "#180000"
         ],
         "duration_seconds": 11712
     },
@@ -1612,13 +2103,13 @@
             "#486048",
             "#906018",
             "#609090",
-            "#A8A8A8"
+            "#907860"
         ],
         "duration_seconds": 6089
     },
     {
-        "title": "Secretsandlies (1996)",
-        "filename": "cinecode-secretsandlies1996720pblurayx264yify.png",
+        "title": "Secrets And Lies (1996)",
+        "filename": "cinecode-secrets_and_lies_1996_720p_bluray_x264_yify.png",
         "colors": [
             "#606048",
             "#303030",
@@ -1630,7 +2121,7 @@
     },
     {
         "title": "Seven Years In Tibet (1997)",
-        "filename": "cinecode-sevenyearsintibet1997720pblurayx264-ytslt.png",
+        "filename": "cinecode-seven_years_in_tibet_1997_720p_bluray_x264_yts_lt.png",
         "colors": [
             "#301818",
             "#604848",
@@ -1642,7 +2133,7 @@
     },
     {
         "title": "Shane (1953)",
-        "filename": "cinecode-shane1953720pblurayh264aac-rarbg.png",
+        "filename": "cinecode-shane_1953_720p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#181818",
             "#606060",
@@ -1661,8 +2152,8 @@
         "duration_seconds": 5907
     },
     {
-        "title": "Shutter Is Land (2010)",
-        "filename": "cinecode-shutterisland20101080pblurayx264yify.png",
+        "title": "Shutter Island (2010)",
+        "filename": "cinecode-shutter_island_2010_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606048",
@@ -1674,7 +2165,7 @@
     },
     {
         "title": "Slumdog Millionaire (2008)",
-        "filename": "cinecode-slumdogmillionaire20081080pblurayx264yify.png",
+        "filename": "cinecode-slumdog_millionaire_2008_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606048",
@@ -1686,7 +2177,7 @@
     },
     {
         "title": "Smoke Signals (1998)",
-        "filename": "cinecode-smokesignals1998.png",
+        "filename": "cinecode-smoke_signals_1998.png",
         "colors": [
             "#181818",
             "#484848",
@@ -1698,7 +2189,7 @@
     },
     {
         "title": "Solaris (1972)",
-        "filename": "cinecode-solaris1972720pbrripen-subx264-mulvacoded.png",
+        "filename": "cinecode-solaris_1972_720p_brrip_en_sub_x264_mulvacoded.png",
         "colors": [
             "#484848",
             "#181818",
@@ -1710,7 +2201,7 @@
     },
     {
         "title": "Sophies Choice (1982)",
-        "filename": "cinecode-sophieschoice19821080pblurayx264anoxmous_.png",
+        "filename": "cinecode-sophies_choice_1982_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#483030",
             "#606060",
@@ -1721,20 +2212,20 @@
         "duration_seconds": 9067
     },
     {
-        "title": "Spider Manacrossthespider Verse (2023)",
-        "filename": "cinecode-spider-manacrossthespider-verse20231080p10bitwebr.png",
+        "title": "Spider Man Across The Spider Verse (2023)",
+        "filename": "cinecode-spider_man_across_the_spider_verse_2023_1080p_10bit_webr.png",
         "colors": [
             "#181830",
-            "#604848",
-            "#787878",
-            "#90A8C0",
-            "#600018"
+            "#606060",
+            "#603030",
+            "#9090A8",
+            "#903060"
         ],
         "duration_seconds": 8405
     },
     {
-        "title": "Spinmeround (2022)",
-        "filename": "cinecode-spinmeround2022720pblurayx264aac-ytsmx.png",
+        "title": "Spin Me Round (2022)",
+        "filename": "cinecode-spin_me_round_2022_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#484848",
             "#181818",
@@ -1750,9 +2241,33 @@
         "colors": [
             "#181818",
             "#484848",
-            "#786078"
+            "#787878"
         ],
         "duration_seconds": 9705
+    },
+    {
+        "title": "Stitch ! (2003)",
+        "filename": "cinecode-2003_stitch!_the_movie.png",
+        "colors": [
+            "#303048",
+            "#486078",
+            "#789090",
+            "#784848",
+            "#003078"
+        ],
+        "duration_seconds": 3622
+    },
+    {
+        "title": "Strange Magic (2015)",
+        "filename": "cinecode-2015_strange_magic.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909060",
+            "#4878A8",
+            "#300000"
+        ],
+        "duration_seconds": 5961
     },
     {
         "title": "Suicide Room (2011)",
@@ -1768,7 +2283,7 @@
     },
     {
         "title": "Super (2010)",
-        "filename": "cinecode-super2010720plimitedx264yify.png",
+        "filename": "cinecode-super_2010_720p_limited_x264_yify.png",
         "colors": [
             "#483030",
             "#606060",
@@ -1780,7 +2295,7 @@
     },
     {
         "title": "Swimming Pool (2003)",
-        "filename": "cinecode-swimmingpool2003720pwebripx264-ytsam.png",
+        "filename": "cinecode-swimming_pool_2003_720p_webrip_x264_yts_am.png",
         "colors": [
             "#484830",
             "#181818",
@@ -1791,8 +2306,18 @@
         "duration_seconds": 6182
     },
     {
+        "title": "Swiss Family Robinson (1960)",
+        "filename": "cinecode-1960_swiss_family_robinson.png",
+        "colors": [
+            "#483030",
+            "#606060",
+            "#181800"
+        ],
+        "duration_seconds": 7581
+    },
+    {
         "title": "Synecdoche New York (2008)",
-        "filename": "cinecode-synecdochenewyork2008720pbrripx264yify.png",
+        "filename": "cinecode-synecdoche_new_york_2008_720p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1800,6 +2325,54 @@
             "#909090"
         ],
         "duration_seconds": 7429
+    },
+    {
+        "title": "Taare Zameen Par (2007)",
+        "filename": "cinecode-taare_zameen_par_2007.png",
+        "colors": [
+            "#787860",
+            "#484830",
+            "#181818",
+            "#A8A890",
+            "#D8D8D8"
+        ],
+        "duration_seconds": 9752
+    },
+    {
+        "title": "Tangled before ever after (2017)",
+        "filename": "cinecode-2017_tangled_before_ever_after.png",
+        "colors": [
+            "#A87860",
+            "#181830",
+            "#784830",
+            "#C0A890",
+            "#304860"
+        ],
+        "duration_seconds": 3301
+    },
+    {
+        "title": "Tarzan (1999)",
+        "filename": "cinecode-1999_tarzan.png",
+        "colors": [
+            "#303018",
+            "#786030",
+            "#486060",
+            "#7890A8",
+            "#001848"
+        ],
+        "duration_seconds": 4943
+    },
+    {
+        "title": "Tarzan (2005)",
+        "filename": "cinecode-2005_tarzan_ii.png",
+        "colors": [
+            "#484848",
+            "#607878",
+            "#181830",
+            "#9090A8",
+            "#906048"
+        ],
+        "duration_seconds": 4269
     },
     {
         "title": "Taxidriver",
@@ -1814,31 +2387,64 @@
         "duration_seconds": 6827
     },
     {
+        "title": "That Darn Cat (1965)",
+        "filename": "cinecode-1965_that_darn_cat.png",
+        "colors": [
+            "#604848",
+            "#181818",
+            "#787878"
+        ],
+        "duration_seconds": 6988
+    },
+    {
         "title": "The 40 Year Old Virgin",
-        "filename": "cinecode-the_40-year-old_virgin.png",
+        "filename": "cinecode-the_40_year_old_virgin.png",
         "colors": [
             "#484848",
             "#181818",
-            "#787878",
-            "#FFF0F0"
+            "#787878"
         ],
         "duration_seconds": 7947
     },
     {
         "title": "The Act Of Killing (2012)",
-        "filename": "cinecode-theactofkilling20121080pblurayx264aac51-ytsmx.png",
+        "filename": "cinecode-the_act_of_killing_2012_1080p_bluray_x264_aac5_1_yts_mx.png",
         "colors": [
             "#907860",
-            "#303030",
-            "#784830",
+            "#604830",
+            "#183030",
             "#A8A890",
-            "#D8C0C0"
+            "#607890"
         ],
         "duration_seconds": 9995
     },
     {
+        "title": "The Aristocats (1970)",
+        "filename": "cinecode-1970_the_aristocats.png",
+        "colors": [
+            "#606048",
+            "#303030",
+            "#909078",
+            "#003090",
+            "#1890C0"
+        ],
+        "duration_seconds": 4535
+    },
+    {
+        "title": "The Assassination Of Jesse James",
+        "filename": "cinecode-the_assassination_of_jesse_james.png",
+        "colors": [
+            "#181818",
+            "#484830",
+            "#787860",
+            "#90A890",
+            "#C0C0C0"
+        ],
+        "duration_seconds": 9580
+    },
+    {
         "title": "The Ballad Of Buster Scruggs (2018)",
-        "filename": "cinecode-theballadofbusterscruggs2018720pwebripx264-ytsam.png",
+        "filename": "cinecode-the_ballad_of_buster_scruggs_2018_720p_webrip_x264_yts_am.png",
         "colors": [
             "#181818",
             "#484830",
@@ -1850,7 +2456,7 @@
     },
     {
         "title": "The Birdcage (1996)",
-        "filename": "cinecode-thebirdcage19961080pblurayx264-ytsam.png",
+        "filename": "cinecode-the_birdcage_1996_1080p_bluray_x264_yts_am.png",
         "colors": [
             "#483030",
             "#786048",
@@ -1860,8 +2466,32 @@
         "duration_seconds": 7153
     },
     {
+        "title": "The Black Cauldron (1985)",
+        "filename": "cinecode-1985_the_black_cauldron.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#C0A890",
+            "#909060",
+            "#A86018"
+        ],
+        "duration_seconds": 4607
+    },
+    {
+        "title": "The Brave Little Toaster (1987)",
+        "filename": "cinecode-1987_the_brave_little_toaster.png",
+        "colors": [
+            "#303030",
+            "#606048",
+            "#787890",
+            "#304878",
+            "#783018"
+        ],
+        "duration_seconds": 5411
+    },
+    {
         "title": "The Dark Knight Rises (2012)",
-        "filename": "cinecode-thedarkknightrises20121080pblurayx264yify.png",
+        "filename": "cinecode-the_dark_knight_rises_2012_1080p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -1875,15 +2505,15 @@
         "colors": [
             "#181818",
             "#304860",
-            "#787878",
-            "#90A8C0",
-            "#604830"
+            "#607890",
+            "#90A8A8",
+            "#603018"
         ],
         "duration_seconds": 7420
     },
     {
         "title": "The Deer Hunter (1978)",
-        "filename": "cinecode-thedeerhunter1978remastered1080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-the_deer_hunter_1978_remastered_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1894,7 +2524,7 @@
     },
     {
         "title": "The Devils Advocate (1997)",
-        "filename": "cinecode-the_devils_advocate_1997_unrated_720p_bluray_x264_aac_-_ozlem.png",
+        "filename": "cinecode-the_devils_advocate_1997_unrated_720p_bluray_x264_aac_ozlem.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1905,18 +2535,32 @@
         "duration_seconds": 8635
     },
     {
-        "title": "The Enigma Of Kaspar Hauser Werner Herzog (1974)",
-        "filename": "cinecode-the_enigma_of_kaspar_hauser_werner_herzog_1974.png",
+        "title": "The Dreamers",
+        "filename": "cinecode-the_dreamers.png",
+        "colors": [
+            "#483018",
+            "#787878",
+            "#304860",
+            "#180000",
+            "#784848"
+        ],
+        "duration_seconds": 6583
+    },
+    {
+        "title": "The Enigma Of Kaspar Hauser, Werner Herzog, (1974)",
+        "filename": "cinecode-the_enigma_of_kaspar_hauser,_werner_herzog,_1974.png",
         "colors": [
             "#303030",
             "#606060",
-            "#C09060"
+            "#909078",
+            "#D8A890",
+            "#906030"
         ],
         "duration_seconds": 6575
     },
     {
         "title": "The Exorcist (1973)",
-        "filename": "cinecode-theexorcist19731080pbrripx264bitloksyify.png",
+        "filename": "cinecode-the_exorcist_1973_1080p_brrip_x264_bitloks_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1928,19 +2572,19 @@
     },
     {
         "title": "The Fall (2007)",
-        "filename": "cinecode-thefall2007brrip720x264yify.png",
+        "filename": "cinecode-the_fall_2007_brrip_720_x264_yify.png",
         "colors": [
             "#303018",
             "#606048",
             "#909078",
-            "#A86048",
-            "#C0C090"
+            "#C0C0A8",
+            "#A86048"
         ],
         "duration_seconds": 7026
     },
     {
         "title": "The Farewell (2019)",
-        "filename": "cinecode-thefarewell2019720pblurayx264-ytslt.png",
+        "filename": "cinecode-the_farewell_2019_720p_bluray_x264_yts_lt.png",
         "colors": [
             "#303030",
             "#606060"
@@ -1949,7 +2593,7 @@
     },
     {
         "title": "The Fountain (2006)",
-        "filename": "cinecode-thefountain20061080pblurayx264anoxmous_.png",
+        "filename": "cinecode-the_fountain_2006_1080p_bluray_x264_anoxmous.png",
         "colors": [
             "#181818",
             "#484830",
@@ -1960,8 +2604,32 @@
         "duration_seconds": 5794
     },
     {
+        "title": "The Fox and the Hound (1981)",
+        "filename": "cinecode-1981_the_fox_and_the_hound.png",
+        "colors": [
+            "#606060",
+            "#303030",
+            "#90A8A8",
+            "#3060C0",
+            "#909060"
+        ],
+        "duration_seconds": 4757
+    },
+    {
+        "title": "The fox and the hound (2006)",
+        "filename": "cinecode-2006_the_fox_and_the_hound_2.png",
+        "colors": [
+            "#604830",
+            "#907860",
+            "#181800",
+            "#1848A8",
+            "#6090A8"
+        ],
+        "duration_seconds": 4159
+    },
+    {
         "title": "The Giant Mechanical Man (2012)",
-        "filename": "cinecode-thegiantmechanicalman20121080pbrripx264yify.png",
+        "filename": "cinecode-the_giant_mechanical_man_2012_1080p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1971,8 +2639,20 @@
         "duration_seconds": 5350
     },
     {
+        "title": "The Good The Bad And The Ugly (1966)",
+        "filename": "cinecode-the_good_the_bad_and_the_ugly_1966_1080p_brrip_x264_yify.png",
+        "colors": [
+            "#484848",
+            "#301818",
+            "#787878",
+            "#D8C0C0",
+            "#A86018"
+        ],
+        "duration_seconds": 10721
+    },
+    {
         "title": "The Graduate (1967)",
-        "filename": "cinecode-thegraduate1967720pblurayx264-ytsag.png",
+        "filename": "cinecode-the_graduate_1967_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#303030",
             "#606060",
@@ -1983,19 +2663,55 @@
         "duration_seconds": 6363
     },
     {
+        "title": "The Grand Budapest Hotel",
+        "filename": "cinecode-the_grand_budapest_hotel.png",
+        "colors": [
+            "#301818",
+            "#784848",
+            "#909090",
+            "#781800",
+            "#304848"
+        ],
+        "duration_seconds": 5995
+    },
+    {
+        "title": "The Grand Budapest Hotel (2014)",
+        "filename": "cinecode-the_grand_budapest_hotel_2014_1080p_bluray_x264_aac_6ch_smg.png",
+        "colors": [
+            "#181818",
+            "#603030",
+            "#606060",
+            "#907890",
+            "#004860"
+        ],
+        "duration_seconds": 5995
+    },
+    {
         "title": "The Great Dictator (1940)",
-        "filename": "cinecode-thegreatdictator1940720pbrripx264yify.png",
+        "filename": "cinecode-the_great_dictator_1940_720p_brrip_x264_yify.png",
         "colors": [
             "#606060",
             "#909090",
             "#303030",
-            "#C0C0A8"
+            "#C0C0C0"
         ],
         "duration_seconds": 7515
     },
     {
+        "title": "The Great Mouse Detective (1986)",
+        "filename": "cinecode-1986_the_great_mouse_detective.png",
+        "colors": [
+            "#303030",
+            "#604860",
+            "#003060",
+            "#909048",
+            "#903030"
+        ],
+        "duration_seconds": 4452
+    },
+    {
         "title": "The Handmaiden (2016)",
-        "filename": "cinecode-thehandmaiden2016720pblurayx264-ytsam.png",
+        "filename": "cinecode-the_handmaiden_2016_720p_bluray_x264_yts_am.png",
         "colors": [
             "#181818",
             "#484830",
@@ -2007,7 +2723,7 @@
     },
     {
         "title": "The Hateful Eight (2015)",
-        "filename": "cinecode-thehatefuleight2015720pblurayx264-ytsag.png",
+        "filename": "cinecode-the_hateful_eight_2015_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#181818",
             "#486078",
@@ -2018,17 +2734,17 @@
     },
     {
         "title": "The Highwaymen (2019)",
-        "filename": "cinecode-thehighwaymen20191080pnfweb-dlddp51x264-ntg.png",
+        "filename": "cinecode-the_highwaymen_2019_1080p_nf_web_dl_ddp5_1_x264_ntg.png",
         "colors": [
-            "#303030",
-            "#606048",
-            "#180000"
+            "#484830",
+            "#181818",
+            "#787860"
         ],
         "duration_seconds": 7936
     },
     {
         "title": "The Hundred Foot Journey (2014)",
-        "filename": "cinecode-thehundredfootjourney2014720pblurayx264yify.png",
+        "filename": "cinecode-the_hundred_foot_journey_2014_720p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606048",
@@ -2038,8 +2754,20 @@
         "duration_seconds": 7358
     },
     {
+        "title": "The Illusionist",
+        "filename": "cinecode-the_illusionist.png",
+        "colors": [
+            "#181800",
+            "#604830",
+            "#907848",
+            "#A89090",
+            "#D8C0A8"
+        ],
+        "duration_seconds": 6536
+    },
+    {
         "title": "The Irishman (2019)",
-        "filename": "cinecode-theirishman2019720pnfwebrip1200mbx264-galaxyrg.png",
+        "filename": "cinecode-the_irishman_2019_720p_nf_webrip_1200mb_x264_galaxyrg.png",
         "colors": [
             "#303030",
             "#606048",
@@ -2051,17 +2779,7 @@
     },
     {
         "title": "The Iron Giant (1999)",
-        "filename": "cinecode-theirongiant1999directorscutblurayac3sample.png",
-        "colors": [
-            "#784848",
-            "#483018",
-            "#787878"
-        ],
-        "duration_seconds": 67
-    },
-    {
-        "title": "The Iron Giant (1999)",
-        "filename": "cinecode-theirongiant1999directorscutblurayac3x264-etrg.png",
+        "filename": "cinecode-the_iron_giant_1999_directors_cut_bluray_ac3_x264_etrg.png",
         "colors": [
             "#181818",
             "#604848",
@@ -2072,8 +2790,44 @@
         "duration_seconds": 5398
     },
     {
+        "title": "The Jungle Book (1967)",
+        "filename": "cinecode-1967_the_jungle_book.png",
+        "colors": [
+            "#486060",
+            "#183048",
+            "#609090",
+            "#483018",
+            "#907860"
+        ],
+        "duration_seconds": 4522
+    },
+    {
+        "title": "The Killing Fields (1984)",
+        "filename": "cinecode-the_killing_fields_1984_1080p_bluray_x264_yts_am.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#300000",
+            "#789090",
+            "#A8A8C0"
+        ],
+        "duration_seconds": 8512
+    },
+    {
+        "title": "The Last Laugh (2016)",
+        "filename": "cinecode-the_last_laugh_2016_1080p_webrip_x264_yts_am.png",
+        "colors": [
+            "#181818",
+            "#484848",
+            "#A89090",
+            "#607878",
+            "#C0C0C0"
+        ],
+        "duration_seconds": 5277
+    },
+    {
         "title": "The Lighthouse (2019)",
-        "filename": "cinecode-thelighthouse20191080pblurayx264-ytslt.png",
+        "filename": "cinecode-the_lighthouse_2019_1080p_bluray_x264_yts_lt.png",
         "colors": [
             "#181818",
             "#606060",
@@ -2083,19 +2837,66 @@
         "duration_seconds": 6549
     },
     {
+        "title": "The Lion King (2004)",
+        "filename": "cinecode-2004_the_lion_king_1_1_5_hakuna_matata.png",
+        "colors": [
+            "#303030",
+            "#A87860",
+            "#C00000",
+            "#784830",
+            "#789090"
+        ],
+        "duration_seconds": 4578
+    },
+    {
+        "title": "The Little Mermaid (1989)",
+        "filename": "cinecode-1989_the_little_mermaid.png",
+        "colors": [
+            "#303030",
+            "#786048",
+            "#306078",
+            "#909090",
+            "#3090A8"
+        ],
+        "duration_seconds": 4968
+    },
+    {
+        "title": "The Little Mermaid 2 Return to the Sea (2000)",
+        "filename": "cinecode-2000_the_little_mermaid_2_return_to_the_sea.png",
+        "colors": [
+            "#181878",
+            "#304848",
+            "#786048",
+            "#487878",
+            "#A89078"
+        ],
+        "duration_seconds": 4521
+    },
+    {
         "title": "The Lobster (2015)",
-        "filename": "cinecode-thelobster2015720pblurayx264-ytsag.png",
+        "filename": "cinecode-the_lobster_2015_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#303030",
             "#606060",
-            "#789090",
-            "#C0A890"
+            "#909090"
         ],
         "duration_seconds": 6825
     },
     {
-        "title": "The loneliness of the long distance runner (1962)",
-        "filename": "cinecode-thelonelinessofthelongdistancerunner1962720pblurayx264aac-ytsmx.png",
+        "title": "The Lone Ranger (2013)",
+        "filename": "cinecode-2013_the_lone_ranger.png",
+        "colors": [
+            "#181818",
+            "#606048",
+            "#789078",
+            "#C0C0A8",
+            "#D8F0D8"
+        ],
+        "duration_seconds": 8972
+    },
+    {
+        "title": "The Loneliness Of The Long Distance Runner (1962)",
+        "filename": "cinecode-the_loneliness_of_the_long_distance_runner_1962_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#484848",
             "#787878",
@@ -2105,8 +2906,19 @@
         "duration_seconds": 6230
     },
     {
+        "title": "The Love Bug (1968)",
+        "filename": "cinecode-1968_the_love_bug.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909078",
+            "#D8D8D8"
+        ],
+        "duration_seconds": 6193
+    },
+    {
         "title": "The Machinist (2004)",
-        "filename": "cinecode-the_machinist_2004_1080p_bluray_51ch_x265_hevc_sujaidr.png",
+        "filename": "cinecode-the_machinist_2004_1080p_bluray_5_1ch_x265_hevc_sujaidr.png",
         "colors": [
             "#181818",
             "#484848",
@@ -2116,8 +2928,43 @@
         "duration_seconds": 6115
     },
     {
+        "title": "The Man Who Knew Infinity (2015)",
+        "filename": "cinecode-the_man_who_knew_infinity_2015_1080p_bluray_h264_aac_rarbg.png",
+        "colors": [
+            "#181818",
+            "#484848",
+            "#787878",
+            "#A8A8A8"
+        ],
+        "duration_seconds": 6515
+    },
+    {
+        "title": "The Man Who Planted Trees (1987)",
+        "filename": "cinecode-the_man_who_planted_trees_1987_hq_english.png",
+        "colors": [
+            "#A89090",
+            "#787860",
+            "#A8C0C0",
+            "#306060",
+            "#303030"
+        ],
+        "duration_seconds": 1807
+    },
+    {
+        "title": "The Many Adventures of Winnie the Pooh (1977)",
+        "filename": "cinecode-1977_the_many_adventures_of_winnie_the_pooh.png",
+        "colors": [
+            "#A8C0C0",
+            "#787878",
+            "#306060",
+            "#D8F0D8",
+            "#A8A878"
+        ],
+        "duration_seconds": 4440
+    },
+    {
         "title": "The Mask (1994)",
-        "filename": "cinecode-themask19941080pbrripx264yify.png",
+        "filename": "cinecode-the_mask_1994_1080p_brrip_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -2127,18 +2974,30 @@
         "duration_seconds": 6072
     },
     {
-        "title": "The Mirror (1975)",
-        "filename": "cinecode-the_mirror_1975_aka_zerkalo_720p_blurayx265_hevc_sujaidr.png",
+        "title": "The Master (2012)",
+        "filename": "cinecode-the_master_2012_720p_brrip_x264_gaz_yify.png",
         "colors": [
-            "#303030",
-            "#606060",
-            "#909090"
+            "#181818",
+            "#606048",
+            "#909078"
         ],
-        "duration_seconds": 6439
+        "duration_seconds": 8250
+    },
+    {
+        "title": "The Meyerowitz Stories New And Selected (2017)",
+        "filename": "cinecode-the_meyerowitz_stories_new_and_selected_2017_720p_nf_web_dl_900mb_mkvcage.png",
+        "colors": [
+            "#484848",
+            "#181818",
+            "#787860",
+            "#C0C0C0",
+            "#A89090"
+        ],
+        "duration_seconds": 6761
     },
     {
         "title": "The Mirror (1975)",
-        "filename": "cinecode-themirror1975zerkalo720pbrripen-subx264-mulvacoded.png",
+        "filename": "cinecode-the_mirror_1975_zerkalo_720p_brrip_en_sub_x264_mulvacoded.png",
         "colors": [
             "#303030",
             "#606060",
@@ -2149,8 +3008,20 @@
         "duration_seconds": 6423
     },
     {
+        "title": "The Nightmare Before Christmas (1993)",
+        "filename": "cinecode-1993_the_nightmare_before_christmas.png",
+        "colors": [
+            "#181818",
+            "#604830",
+            "#606078",
+            "#183060",
+            "#C0C078"
+        ],
+        "duration_seconds": 4384
+    },
+    {
         "title": "The Pianist (2002)",
-        "filename": "cinecode-thepianist20021080pbrripx264yify.png",
+        "filename": "cinecode-the_pianist_2002_1080p_brrip_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
@@ -2160,7 +3031,7 @@
     },
     {
         "title": "The Prestige (2006)",
-        "filename": "cinecode-theprestige2006720pbrripx264silverrg.png",
+        "filename": "cinecode-the_prestige_2006_720p_brrip_x264_silverrg.png",
         "colors": [
             "#181818",
             "#484848",
@@ -2172,7 +3043,7 @@
     },
     {
         "title": "The Princess Bride (1987)",
-        "filename": "cinecode-theprincessbride1987brripxvidmp3-xvid.png",
+        "filename": "cinecode-the_princess_bride_1987_brrip_xvid_mp3_xvid.png",
         "colors": [
             "#303030",
             "#606060",
@@ -2182,20 +3053,44 @@
         "duration_seconds": 5901
     },
     {
+        "title": "The Rocker (2008)",
+        "filename": "cinecode-the_rocker_2008_1080p_brrip_x264_yify.png",
+        "colors": [
+            "#301818",
+            "#606048",
+            "#A89078",
+            "#600048",
+            "#000048"
+        ],
+        "duration_seconds": 6137
+    },
+    {
         "title": "The School Of Rock",
         "filename": "cinecode-the_school_of_rock.png",
         "colors": [
             "#303030",
             "#606048",
             "#181878",
-            "#306090",
-            "#909078"
+            "#180000",
+            "#4878A8"
         ],
         "duration_seconds": 6544
     },
     {
+        "title": "The Secret Life Of Walter Mitty (2013)",
+        "filename": "cinecode-the_secret_life_of_walter_mitty_2013_1080p_bluray_x264_yify.png",
+        "colors": [
+            "#303030",
+            "#486060",
+            "#909090",
+            "#786030",
+            "#001800"
+        ],
+        "duration_seconds": 6874
+    },
+    {
         "title": "The Shallows (2016)",
-        "filename": "cinecode-the_shallows_2016_1080p_web-dl_x264_ac3-jyk.png",
+        "filename": "cinecode-the_shallows_2016_1080p_web_dl_x264_ac3_jyk.png",
         "colors": [
             "#001818",
             "#90A890",
@@ -2212,13 +3107,14 @@
             "#303030",
             "#606060",
             "#909090",
-            "#6090C0"
+            "#D8C030",
+            "#000018"
         ],
         "duration_seconds": 8546
     },
     {
         "title": "The Silence Of The Lambs (1991)",
-        "filename": "cinecode-thesilenceofthelambs1991720pblurayx264yify.png",
+        "filename": "cinecode-the_silence_of_the_lambs_1991_720p_bluray_x264_yify.png",
         "colors": [
             "#181818",
             "#484848",
@@ -2228,38 +3124,76 @@
     },
     {
         "title": "The Sixth Sense (1999)",
-        "filename": "cinecode-thesixthsense19991080pblurayx264yify.png",
+        "filename": "cinecode-the_sixth_sense_1999_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
             "#180000",
-            "#909090"
+            "#909090",
+            "#D8C0C0"
         ],
         "duration_seconds": 6443
     },
     {
         "title": "The Sting (1973)",
-        "filename": "cinecode-thesting1973720pblurayx264-ytsam.png",
+        "filename": "cinecode-the_sting_1973_720p_bluray_x264_yts_am.png",
         "colors": [
             "#483030",
-            "#786048",
-            "#181800"
+            "#606060",
+            "#181800",
+            "#909078"
         ],
         "duration_seconds": 7756
     },
     {
-        "title": "The Twilight Zone (1963)",
-        "filename": "cinecode-thetwilightzone1963s05e22occurrence_at_owl_creek_bridge.png",
+        "title": "The Sword in the Stone (1963)",
+        "filename": "cinecode-1963_the_sword_in_the_stone.png",
+        "colors": [
+            "#484848",
+            "#607878",
+            "#A89060",
+            "#78A8A8",
+            "#181818"
+        ],
+        "duration_seconds": 4578
+    },
+    {
+        "title": "The Tale Of The Princess  Kaguya (2013)",
+        "filename": "cinecode-the_tale_of_the_princess_kaguya_2013_brrip_dual_audio_eng+jap_lkrg.png",
+        "colors": [
+            "#C0C0C0",
+            "#909090",
+            "#606060",
+            "#303030",
+            "#D8F0F0"
+        ],
+        "duration_seconds": 8233
+    },
+    {
+        "title": "The Thin Blue Line (1988)",
+        "filename": "cinecode-the_thin_blue_line_1988_1080p_bluray_x264_yify.png",
         "colors": [
             "#303030",
             "#606060",
-            "#907890"
+            "#909090",
+            "#000018",
+            "#C0C0C0"
+        ],
+        "duration_seconds": 6102
+    },
+    {
+        "title": "The Twilight Zone (1963)",
+        "filename": "cinecode-the_twilight_zone_1963_s05e22_occurrence_at_owl_creek_bridge.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#909090"
         ],
         "duration_seconds": 1542
     },
     {
         "title": "The Witch (2015)",
-        "filename": "cinecode-thewitch2015720pblurayx264-ytsag.png",
+        "filename": "cinecode-the_witch_2015_720p_bluray_x264_yts_ag.png",
         "colors": [
             "#181818",
             "#484848",
@@ -2269,7 +3203,7 @@
     },
     {
         "title": "The Wizard Of Oz (1939)",
-        "filename": "cinecode-thewizardofoz1939720pbrripxvidac3-majestic.png",
+        "filename": "cinecode-the_wizard_of_oz_1939_720p_brrip_xvid_ac3_majestic.png",
         "colors": [
             "#484830",
             "#181818",
@@ -2279,32 +3213,8 @@
         "duration_seconds": 6107
     },
     {
-        "title": "Thegoodthebadandtheugly (1966)",
-        "filename": "cinecode-thegoodthebadandtheugly19661080pbrripx264yify.png",
-        "colors": [
-            "#484848",
-            "#301818",
-            "#787878",
-            "#D8C0C0",
-            "#A86018"
-        ],
-        "duration_seconds": 10721
-    },
-    {
-        "title": "Thekillingfields (1984)",
-        "filename": "cinecode-thekillingfields19841080pblurayx264-ytsam.png",
-        "colors": [
-            "#303030",
-            "#606060",
-            "#300000",
-            "#789090",
-            "#A8A8C0"
-        ],
-        "duration_seconds": 8512
-    },
-    {
         "title": "Thelma And Louise (1991)",
-        "filename": "cinecode-thelmaandlouise1991bluray720ph264.png",
+        "filename": "cinecode-thelma_and_louise_1991_bluray_720p_h264.png",
         "colors": [
             "#303030",
             "#606048",
@@ -2314,28 +3224,52 @@
         "duration_seconds": 7620
     },
     {
-        "title": "Thesecretlifeofwaltermitty (2013)",
-        "filename": "cinecode-thesecretlifeofwaltermitty20131080pblurayx264yify.png",
+        "title": "Tinker Bell (2008)",
+        "filename": "cinecode-2008_tinker_bell.png",
         "colors": [
             "#303030",
-            "#486060",
-            "#909090",
             "#786030",
-            "#001800"
+            "#909090",
+            "#486060",
+            "#C09060"
         ],
-        "duration_seconds": 6874
+        "duration_seconds": 4679
     },
     {
-        "title": "Thethinblueline (1988)",
-        "filename": "cinecode-thethinblueline19881080pblurayx264yify.png",
+        "title": "Tinker Bell and the great fairy rescue (2010)",
+        "filename": "cinecode-2010_tinker_bell_and_the_great_fairy_rescue.png",
+        "colors": [
+            "#181818",
+            "#606048",
+            "#D8D8A8",
+            "#603018",
+            "#A89060"
+        ],
+        "duration_seconds": 4587
+    },
+    {
+        "title": "Tinker Bell and the Legend of the Neverbeast (2014)",
+        "filename": "cinecode-2014_tinker_bell_and_the_legend_of_the_neverbeast.png",
         "colors": [
             "#303030",
-            "#606060",
-            "#909090",
-            "#000018",
-            "#606018"
+            "#606048",
+            "#489090",
+            "#C0A8A8",
+            "#907878"
         ],
-        "duration_seconds": 6102
+        "duration_seconds": 4574
+    },
+    {
+        "title": "Tinker Bell and the lost treasure (2009)",
+        "filename": "cinecode-2009_tinker_bell_and_the_lost_treasure.png",
+        "colors": [
+            "#483030",
+            "#786048",
+            "#181800",
+            "#A89090",
+            "#184878"
+        ],
+        "duration_seconds": 4814
     },
     {
         "title": "To Be Or Not To Be (1942)",
@@ -2347,7 +3281,7 @@
     },
     {
         "title": "Tokyo Story (1953)",
-        "filename": "cinecode-tokyo_story_1953_720p_brrip_x264_mp4_aac-cc.png",
+        "filename": "cinecode-tokyo_story_1953_720p_brrip_x264_mp4_aac_cc.png",
         "colors": [
             "#484848",
             "#787878",
@@ -2358,7 +3292,7 @@
     },
     {
         "title": "Toto The Hero (1991)",
-        "filename": "cinecode-totothehero1991dvdripxvidhorizon-artsubs.png",
+        "filename": "cinecode-toto_the_hero_1991_dvdrip_xvid_horizon_artsubs.png",
         "colors": [
             "#181818",
             "#484830",
@@ -2369,8 +3303,20 @@
         "duration_seconds": 5251
     },
     {
+        "title": "Toy Story 4 (2019)",
+        "filename": "cinecode-toy_story_4_2019_1080p_webrip_x264_aac2_0_shitbox.png",
+        "colors": [
+            "#181818",
+            "#604848",
+            "#907878",
+            "#603090",
+            "#183060"
+        ],
+        "duration_seconds": 5991
+    },
+    {
         "title": "Trainspotting (1996)",
-        "filename": "cinecode-trainspotting19961080pbrripx264bokutoxyify.png",
+        "filename": "cinecode-trainspotting_1996_1080p_brrip_x264_bokutox_yify.png",
         "colors": [
             "#301818",
             "#604848",
@@ -2381,8 +3327,20 @@
         "duration_seconds": 5631
     },
     {
+        "title": "Treasure Planet (2002)",
+        "filename": "cinecode-2002_treasure_planet.png",
+        "colors": [
+            "#301818",
+            "#604860",
+            "#906030",
+            "#903000",
+            "#181860"
+        ],
+        "duration_seconds": 5724
+    },
+    {
         "title": "Triple Frontier (2019)",
-        "filename": "cinecode-triplefrontier20191080pwebripx264-ytsam.png",
+        "filename": "cinecode-triple_frontier_2019_1080p_webrip_x264_yts_am.png",
         "colors": [
             "#181818",
             "#304848",
@@ -2392,8 +3350,20 @@
         "duration_seconds": 7552
     },
     {
+        "title": "Tropic Thunder (2008)",
+        "filename": "cinecode-tropic_thunder_2008_720p_bluray_x264_aac_ozlem.png",
+        "colors": [
+            "#303030",
+            "#606060",
+            "#307818",
+            "#000018",
+            "#603000"
+        ],
+        "duration_seconds": 6407
+    },
+    {
         "title": "Uncle Buck (1989)",
-        "filename": "cinecode-unclebuck19891080pblurayx264vppv.png",
+        "filename": "cinecode-uncle_buck_1989_1080p_bluray_x264_vppv.png",
         "colors": [
             "#181818",
             "#484848",
@@ -2403,7 +3373,7 @@
     },
     {
         "title": "Uncut Gems (2019)",
-        "filename": "cinecode-uncutgems2019720pblurayx264aac-ytsmx.png",
+        "filename": "cinecode-uncut_gems_2019_720p_bluray_x264_aac_yts_mx.png",
         "colors": [
             "#303030",
             "#606060",
@@ -2415,13 +3385,13 @@
     },
     {
         "title": "Under The Silver Lake (2018)",
-        "filename": "cinecode-underthesilverlake20181080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-under_the_silver_lake_2018_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
-            "#181818",
-            "#484848",
-            "#787878",
-            "#48FF30",
-            "#D860D8"
+            "#303030",
+            "#606060",
+            "#18C0D8",
+            "#C0D830",
+            "#48F030"
         ],
         "duration_seconds": 8359
     },
@@ -2430,16 +3400,28 @@
         "filename": "cinecode-unforgettable_2016_bluray_720p.png",
         "colors": [
             "#181818",
-            "#787878",
-            "#604830",
-            "#90A8A8",
-            "#004860"
+            "#606060",
+            "#909090",
+            "#603030",
+            "#90C0C0"
         ],
         "duration_seconds": 6810
     },
     {
+        "title": "Up (2009)",
+        "filename": "cinecode-up_2009_1080p_bluray_x264_yify.png",
+        "colors": [
+            "#181818",
+            "#C0A890",
+            "#604848",
+            "#7890A8",
+            "#907860"
+        ],
+        "duration_seconds": 5767
+    },
+    {
         "title": "Upgrade (2018)",
-        "filename": "cinecode-upgrade20181080pblurayh264aac-rarbg.png",
+        "filename": "cinecode-upgrade_2018_1080p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#181818",
             "#304848",
@@ -2451,7 +3433,7 @@
     },
     {
         "title": "Us (2019)",
-        "filename": "cinecode-us20191080pwebripx264-ytsam.png",
+        "filename": "cinecode-us_2019_1080p_webrip_x264_yts_am.png",
         "colors": [
             "#181818",
             "#484830",
@@ -2467,56 +3449,115 @@
             "#181818",
             "#484848",
             "#784818",
-            "#787848",
-            "#3078A8"
+            "#607878",
+            "#907848"
         ],
         "duration_seconds": 7635
     },
     {
         "title": "Vicky Cristina Barcelona (2008)",
-        "filename": "cinecode-vickycristinabarcelona2008dvdrip-axxo.png",
+        "filename": "cinecode-vicky_cristina_barcelona_2008_dvdrip_axxo.png",
         "colors": [
             "#483018",
             "#786030",
             "#180000",
-            "#780000",
-            "#A89078"
+            "#A89078",
+            "#780000"
         ],
         "duration_seconds": 5770
     },
     {
         "title": "Weekend At Bernies (1989)",
-        "filename": "cinecode-weekendatbernies1989720pblurayh264aac-rarbg.png",
+        "filename": "cinecode-weekend_at_bernies_1989_720p_bluray_h264_aac_rarbg.png",
         "colors": [
             "#606060",
             "#303030",
             "#909078",
-            "#304890"
+            "#6078A8"
         ],
         "duration_seconds": 5904
     },
     {
         "title": "Willy Wonka And The Chocolate Factory (1971)",
-        "filename": "cinecode-willywonkaandthechocolatefactory1971brripxvidmp3-xvid.png",
+        "filename": "cinecode-willy_wonka_and_the_chocolate_factory_1971_brrip_xvid_mp3_xvid.png",
         "colors": [
             "#604848",
             "#181818",
             "#A8A8A8",
-            "#787878",
-            "#601800"
+            "#907878",
+            "#601818"
         ],
         "duration_seconds": 5985
     },
     {
-        "title": "Zola (2020)",
-        "filename": "cinecode-zola2020720pblurayx264aac-ytsmx.png",
+        "title": "Wind River (2017)",
+        "filename": "cinecode-wind_river_2017_720p_bluray_x264_yts_ag.png",
         "colors": [
-            "#604830",
+            "#484848",
             "#181818",
+            "#789090",
+            "#A8C0C0"
+        ],
+        "duration_seconds": 6407
+    },
+    {
+        "title": "Winnie the Pooh (2011)",
+        "filename": "cinecode-2011_winnie_the_pooh.png",
+        "colors": [
+            "#F0D8D8",
+            "#909078",
+            "#484830",
+            "#C0C0A8",
+            "#181830"
+        ],
+        "duration_seconds": 3783
+    },
+    {
+        "title": "Wreck it Ralph (2012)",
+        "filename": "cinecode-2012_wreck_it_ralph.png",
+        "colors": [
+            "#301818",
+            "#604830",
+            "#906060",
+            "#A89090",
+            "#184848"
+        ],
+        "duration_seconds": 6073
+    },
+    {
+        "title": "Kill Bill Vol 2 (2004)",
+        "filename": "cinecode-www_usabit_com_kill_bill_vol_2_2004_bluray_1080p_5_1ch_x264_ganool.png",
+        "colors": [
+            "#181818",
+            "#484848",
+            "#787878",
+            "#A8A8A8",
+            "#600000"
+        ],
+        "duration_seconds": 8217
+    },
+    {
+        "title": "Zola (2020)",
+        "filename": "cinecode-zola_2020_720p_bluray_x264_aac_yts_mx.png",
+        "colors": [
+            "#181818",
+            "#604830",
             "#7890A8",
             "#787860",
             "#304860"
         ],
         "duration_seconds": 5155
+    },
+    {
+        "title": "Zootopia (2016)",
+        "filename": "cinecode-2016_zootopia.png",
+        "colors": [
+            "#181818",
+            "#907878",
+            "#604848",
+            "#184878",
+            "#A8A8C0"
+        ],
+        "duration_seconds": 6512
     }
 ]

@@ -14,7 +14,7 @@ Then it asks you: *can you recognize the film from its colors alone?*
 
 ## Why Color?
 
-Color grading is one of the most emotionally loaded decisions in filmmaking yet it's invisible to most audiences. A cold teal wash tells you something is clinical. Amber warmth signals nostalgia. A sudden shift to saturated red screams danger.
+Color grading is one of the most important decisions in filmmaking yet it's overlooked and just experienced. A cold teal wash tells you something is clinical. Amber warmth signals nostalgia. A sudden shift to saturated red screams danger.
 
 CineCode makes this language *legible*. By extracting every frame's dominant hue and laying them out chronologically, it reveals patterns that even cinephiles rarely notice:
 

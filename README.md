@@ -22,7 +22,7 @@ CineCode makes this language *legible*. By extracting every frame's dominant hue
 - **La La Land** oscillates between deep indigo nights and golden-hour warmth, its romance visible as rhythm.
 - **Moonlight** shifts across three distinct palettes  one for each chapter of its protagonist's life.
 
-The barcode isn't decoration. It's a *data visualization of directorial intent*.
+The barcode is a *data visualization of directorial intent*.
 
 ---
 
